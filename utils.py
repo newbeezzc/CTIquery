@@ -187,5 +187,16 @@ def cast_label(cti_labels, label_dict):
             int_types.append(label_dict[raw_label][0])
     return int_types, labels
 
+
+def load_query_data(query_file_name):
+    """
+    :param query_file_name: 查询文本的文件名
+    :return: 读取到的查询文本，ndarry
+    """
+    df = pd.read_csv(query_file_name, sep=",")
+    return df.values
+
+
 if __name__ == '__main__':
-    load_label_dict()
+    # load_label_dict()
+    load_query_data("查询文本demo/IOC_text.csv")
