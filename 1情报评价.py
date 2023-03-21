@@ -10,7 +10,7 @@ class IOCQuery(BaseQuery):
         self.query_file_name = "IOC_text.csv"
         self.output_file_name = "intelligence_evaluation.json"
 
-    def Request(self):
+    def doRequest(self):
         """
         请求CTI，返回结果。
         :return: 查询CTI的结果
@@ -31,7 +31,7 @@ class IOCQuery(BaseQuery):
         sha1 = None
         sha256 = None
         hasMD5 = False
-        for hash in result.get("hashes"):
+        for hash in result.get("hashes", []):
             if hash["algorithm"] == 'MD5':
                 item["ioc"] = hash.get("hash")
                 hasMD5 = True
@@ -53,15 +53,21 @@ class IOCQuery(BaseQuery):
         item["label"] = labels  # 情报标签数组
         item["discovery_time"] = parse_date(result.get("created_at"))  # 发现时间
         item["update_time"] = parse_date(result.get("updated_at"))  # 更新时间
-        item["is_revoked"] = result.get("indicators", [])[0].get("revoked")  # 是否过期 indicator revoked字段
-        item["source"] = result.get("createdBy", {}).get("name")  # 数据源
+        indicators = result.get("indicators", [])
+        item["is_revoked"] = indicators[0].get("revoked") if indicators else None  # 是否过期 indicator revoked字段
+        created_by = result.get("createdBy", {})
+        item["source"] = created_by.get("name") if created_by is not None else None  # 数据源
 
         return item
 
-    def set_query_params(self):
+    def set_query_params(self, row_data):
         self.query_params.properties = properties.IOC_properties
         self.query_params.types = ["Domain-Name", "StixFile", "URL", "Email-Addr", "IPv4-Addr", "IPv6-Addr"]
-        self.query_params.filters = [{"key": "value", "values": "195.20.50.201", "filterMode": "and"}]
+        filters = [
+            {"key": "value", "values": [row_data[0]]},
+            {"key": "entity_type", "values": [row_data[1]]}
+        ]
+        self.query_params.filters = filters
 
 
 if __name__ == "__main__":

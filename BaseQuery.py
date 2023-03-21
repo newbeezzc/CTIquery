@@ -9,10 +9,11 @@ from utils import load_label_dict
 
 
 class QueryParams:
-    def __init__(self, properties=None, types=None, filters=None):
-        self.properties = properties
-        self.types = types
-        self.filters = filters
+    def __init__(self):
+        self.properties = None
+        self.types = None
+        self.filters = None
+        self.first = 100
 
 
 class BaseQuery:
@@ -37,23 +38,35 @@ class BaseQuery:
 
         # 查询参数
         self.query_params = QueryParams()
-        self.set_query_params()
 
-        # 加载需要查询的数据
-        self.query_data = self.load_query_data()
+        self.query_data = None
 
     def load_query_data(self):
         if self.query_file_name is not None:
             query_file_path = Path(__file__).parent.joinpath(f"{self.query_file_dic}/{self.query_file_name}")
-            df = pd.read_csv(query_file_path, sep=",")
+            df = pd.read_csv(query_file_path, sep=",", header=None)
         else:
             raise ValueError("query_file_name is not defined")
-        return df.values
+        return df
 
     def Query(self):
-        results = self.Request()
+        # 加载需要查询的数据
+        self.query_data = self.load_query_data()
+        results = list()
+        for index, row in self.query_data.iterrows():
+            # 每次请求一个数据
+            result = self.Request(row.tolist())
+            if result:
+                results.extend(result)
         json_str = self.Produce(results)
         self.write_json(json_str)
+
+    def Request(self, row_data):
+        self.set_query_params(row_data)
+        return self.doRequest()
+
+    def doRequest(self):
+        raise NotImplementedError
 
     def Produce(self, results):
         items = []
@@ -66,9 +79,6 @@ class BaseQuery:
         )
         return json_str
 
-    def Request(self):
-        raise NotImplementedError
-
     def doProduce(self, result):
         raise NotImplementedError
 
@@ -80,9 +90,10 @@ class BaseQuery:
         else:
             raise ValueError("output_file_name is not defined")
 
-    def set_query_params(self):
+    def set_query_params(self, row_data):
         raise NotImplementedError
 
 
 if __name__ == "__main__":
     Q = BaseQuery()
+    Q.Query()

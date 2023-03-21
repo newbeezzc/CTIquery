@@ -199,4 +199,4 @@ def load_query_data(query_file_name):
 
 if __name__ == '__main__':
     # load_label_dict()
-    load_query_data("查询文本demo/IOC_text.csv")
+    load_query_data("Query text demo/IOC_text.csv")

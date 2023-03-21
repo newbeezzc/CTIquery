@@ -24,5 +24,5 @@ def gen_IOC(filename):
 
 
 if __name__ == "__main__":
-    IOC_file_name = "查询文本demo/IOC_text.csv"
+    IOC_file_name = "Query text demo/IOC_text.csv"
     gen_IOC(IOC_file_name)

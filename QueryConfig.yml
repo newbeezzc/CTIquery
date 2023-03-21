@@ -3,5 +3,5 @@ opencti:
   token: '1AD9B432-2E47-2DEE-E4EC-017681B4DF2A'
 
 files:
-  query_dic: "查询文本demo"
-  output_dic: "查询结果"
+  query_dic: "Query text demo"
+  output_dic: "Query Results"
