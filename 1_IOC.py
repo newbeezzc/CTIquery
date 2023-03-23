@@ -1,13 +1,13 @@
 # coding: utf-8
 from BaseQuery import BaseQuery
-from utils import parse_date, parse_ioc_type, cast_label
+from utils import parse_date, parse_ioc_type, cast_label, reverse_ioc_type
 import properties
 
 
 class IOCQuery(BaseQuery):
     def __init__(self):
         super().__init__()
-        self.query_file_name = "IOC_text.csv"
+        self.query_file_name = "IOC_text_2.csv"
         self.output_file_name = "intelligence_evaluation.json"
 
     def doRequest(self):
@@ -58,22 +58,18 @@ class IOCQuery(BaseQuery):
         created_by = result.get("createdBy", {})
         item["source"] = created_by.get("name") if created_by is not None else None  # 数据源
 
-        return item
+        return [item]
 
     def set_query_params(self, row_data):
         self.query_params.properties = properties.IOC_properties
         self.query_params.types = ["Domain-Name", "StixFile", "URL", "Email-Addr", "IPv4-Addr", "IPv6-Addr"]
         filters = [
             {"key": "value", "values": [row_data[0]]},
-            {"key": "entity_type", "values": [row_data[1]]}
+            {"key": "entity_type", "values": [reverse_ioc_type(row_data[1])]}
         ]
         self.query_params.filters = filters
 
 
 if __name__ == "__main__":
-    # output_json(
-    #     query_file_name="查询文本demo/IOC_text.csv",
-    #     output_file_name="intelligence_evaluation_100.json"
-    # )
-    IOC_query = IOCQuery()
-    IOC_query.Query()
+    q = IOCQuery()
+    q.Query()

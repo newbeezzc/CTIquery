@@ -5,7 +5,8 @@ import yaml
 from pathlib import Path
 from pycti import OpenCTIApiClient
 
-from utils import load_label_dict
+import properties
+from utils import load_label_dict, reverse_ioc_type
 
 
 class QueryParams:
@@ -14,6 +15,8 @@ class QueryParams:
         self.types = None
         self.filters = None
         self.first = 100
+
+        self.Id = None
 
 
 class BaseQuery:
@@ -72,8 +75,8 @@ class BaseQuery:
         items = []
         for result in results:
             item = self.doProduce(result)
-            if item is not None:
-                items.append(item)
+            if item:
+                items.extend(item)
         json_str = json.dumps(
             items, indent=4, ensure_ascii=False
         )

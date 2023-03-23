@@ -289,3 +289,384 @@ IOC_properties = """
             }
         }
     """
+
+IOCRelation_properties = """
+        id
+        standard_id
+        entity_type
+        observable_value
+        stixCoreRelationships {
+            edges {
+                node {
+                    id
+                    relationship_type
+                    from {
+                        ... on StixCoreObject {
+                            id
+                            entity_type
+                            ... on Report {
+                                name
+                            }
+                            ... on Malware {
+                                name
+                                is_family
+                            }
+                            ... on IntrusionSet {
+                                name
+                            }
+                            ... on StixCyberObservable{
+                                observable_value
+                                ... on StixFile {
+                                    hashes {
+                                        algorithm
+                                        hash
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    to {
+                        ... on StixCoreObject {
+                            id
+                            entity_type
+                            ... on Report {
+                                name
+                            }
+                            ... on Malware {
+                                name
+                                is_family
+                            }
+                            ... on IntrusionSet {
+                                name
+                            }
+                            ... on StixCyberObservable{
+                                observable_value
+                                ... on StixFile {
+                                    hashes {
+                                        algorithm
+                                        hash
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        stixCyberObservableRelationships {
+            edges {
+                node {
+                    id
+                    relationship_type
+                    from {
+                        ... on StixCyberObservable {
+                            observable_value
+                            ... on StixFile {
+                                hashes {
+                                    algorithm
+                                    hash
+                                }
+                            }
+                        }
+                    }
+                    to {
+                        ... on StixCyberObservable {
+                            observable_value
+                            ... on StixFile {
+                                hashes {
+                                    algorithm
+                                    hash
+                                }
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+    """
+
+DomainAnalysis_properties = """
+            id
+            entity_type
+            parent_types
+            spec_version
+            created_at
+            updated_at
+            standard_id
+            relationship_type
+            description
+            start_time
+            stop_time
+            from {
+                ... on StixCyberObservable {
+                    id
+                    standard_id
+                    entity_type
+                    parent_types
+                    observable_value
+                }
+            }
+            to {
+                ... on StixCyberObservable {
+                    id
+                    standard_id
+                    entity_type
+                    parent_types
+                    observable_value
+                }
+            }
+        """
+
+IPAddress_properties = """
+        id
+        standard_id
+        entity_type
+        parent_types
+        spec_version
+        created_at
+        updated_at
+        stixCoreRelationships {
+            edges {
+                node {
+                    id
+                    standard_id
+                    entity_type
+                    from {
+                        ... on StixCyberObservable {
+                            id
+                            standard_id
+                            entity_type
+                            parent_types
+                            observable_value
+                        }
+                    }
+                    to {
+                        ... on AutonomousSystem {
+                            id
+                            standard_id
+                            entity_type
+                            observable_value
+                            number
+                        }
+                        ... on Location {
+                            id
+                            standard_id
+                            entity_type
+                            name
+                            latitude
+                            longitude
+                        }                                            
+                    }
+                    relationship_type
+                }
+            }
+        }
+        observable_value
+        x_opencti_description
+        x_opencti_score
+        indicators {
+            edges {
+                node {
+                    id
+                    pattern
+                    pattern_type
+                }
+            }
+        }
+        ... on IPv4Addr {
+            value
+        }
+        ... on IPv6Addr {
+            value
+        }
+    """
+
+IPAddressRelation_properties = """
+            id
+            entity_type
+            parent_types
+            created_at
+            updated_at
+            standard_id
+            relationship_type
+            from {
+                ... on StixCyberObservable {
+                    id
+                    standard_id
+                    entity_type
+                    parent_types
+                    observable_value
+                }
+            }
+            to {
+                ... on AutonomousSystem {
+                    id
+                    standard_id
+                    entity_type
+                    observable_value
+                    number
+                }
+                ... on Location {
+                    id
+                    standard_id
+                    entity_type
+                    name
+                    latitude
+                    longitude
+                }
+            }
+        """
+
+AttackOrganization_properties = """
+        id
+        name
+        standard_id
+        entity_type
+        parent_types
+        spec_version
+        created_at
+        updated_at
+        createdBy {
+            ... on Identity {
+                id
+                standard_id
+                entity_type
+                parent_types
+                spec_version
+                identity_class
+                name
+                description
+                roles
+                contact_information
+                x_opencti_aliases
+                created
+                modified
+                objectLabel {
+                    edges {
+                        node {
+                            id
+                            value
+                            color
+                        }
+                    }
+                }
+            }
+            ... on Organization {
+                x_opencti_organization_type
+                x_opencti_reliability
+            }
+            ... on Individual {
+                x_opencti_firstname
+                x_opencti_lastname
+            }
+        }
+        objectMarking {
+            edges {
+                node {
+                    id
+                    standard_id
+                    entity_type
+                    definition_type
+                    definition
+                    created
+                    modified
+                    x_opencti_order
+                    x_opencti_color
+                }
+            }
+        }
+        objectLabel {
+            edges {
+                node {
+                    id
+                    value
+                    color
+                }
+            }
+        }
+        externalReferences {
+            edges {
+                node {
+                    id
+                    standard_id
+                    entity_type
+                    source_name
+                    description
+                    url
+                    hash
+                    external_id
+                    created
+                    modified
+                    importFiles {
+                        edges {
+                            node {
+                                id
+                                name
+                                size
+                                metaData {
+                                    mimetype
+                                    version
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        stixCoreRelationships {
+            edges {
+                node {
+                    id
+                    standard_id
+                    entity_type
+                    to {
+                        ... on Location {
+                            id
+                            standard_id
+                            entity_type
+                            name
+                        }
+                        ... on Identity  {
+                            id
+                            standard_id
+                            entity_type
+                            name
+                        }     
+                        ... on AttackPattern  {
+                            id
+                            standard_id
+                            entity_type
+                            name
+                        }                                               
+                    }
+                    relationship_type
+                }
+            }
+        }
+        revoked
+        confidence
+        created
+        modified
+        description
+        aliases
+        first_seen
+        last_seen
+        goals
+        resource_level
+        primary_motivation
+        secondary_motivations
+        lang
+        importFiles {
+            edges {
+                node {
+                    id
+                    name
+                    size
+                    metaData {
+                        mimetype
+                        version
+                    }
+                }
+            }
+        }
+    """

@@ -9,7 +9,7 @@ from utils import list, parse_ioc_type, parse_object_type
 
 def output_json(file_name):
     # Variables
-    api_url = "http://113.54.217.126:4000"
+    api_url = "http://113.54.191.207:4000"
     api_token = "1AD9B432-2E47-2DEE-E4EC-017681B4DF2A"
     # api_url = "http://localhost:4000"
     # api_token = "2f5886e0-47e2-4e1a-955f-5b7df4813588"
@@ -21,13 +21,20 @@ def output_json(file_name):
     from_type = ["Domain-Name", "StixFile", "URL", "Email-Addr", "IPv4-Addr", "IPv6-Addr"]
     to_type = ["Domain-Name", "StixFile", "URL", "Email-Addr", "IPv4-Addr", "IPv6-Addr", "Report", "Malware",
                "Intrusion-Set"]
-    results = opencti_api_client.stix_cyber_observable_relationship.list(first=100, getAll=True, fromTypes=from_type,
-                                                                         toTypes=to_type)  # 默认100条，指定数目使用first参数
+    results = opencti_api_client.stix_cyber_observable_relationship.list(first=100, getAll=False,
+                                                                         fromId='3a27a022-9781-4ca6-a548-2a8ce80806fe',
+                                                                         relationship_type=[])  # 默认100条，指定数目使用first参数
+    # results = opencti_api_client.stix_cyber_observable_relationship.list(first=100, getAll=False, fromTypes=from_type,
+    #                                                                      toTypes=to_type,
+    #                                                                      relationship_type=[])  # 默认100条，指定数目使用first参数
     # 以下为对应字段
     with open(file_name, "w", newline="\n", encoding="utf-8") as Relation_detail:
         Relation_items = []
         for result in results:
             Relation_item = defaultdict(list)
+            if result["to"] == {}:
+                continue
+
             if result["to"]["entity_type"] == "Malware":
                 if not result["to"]["is_family"]:
                     continue  # 如果是恶意软件但不是恶意家族，跳过
@@ -66,5 +73,5 @@ def output_json(file_name):
 
 if __name__ == "__main__":
     output_json(
-        file_name="Relation_Analysis_all.json"
+        file_name="数据查询反馈及示例/2_Relation_Analysis_100.json"
     )

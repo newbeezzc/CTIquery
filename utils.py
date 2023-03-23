@@ -1,5 +1,6 @@
 from datetime import datetime, date
 import pandas as pd
+import unicodedata
 from pandas import DataFrame
 
 
@@ -114,7 +115,7 @@ def list(opencti, **kwargs):
 
 
 def parse_date(text):
-    if text == '1970-01-01T00:00:00.000Z' or '5138-11-16T09:46:40.000Z':
+    if text in ['1970-01-01T00:00:00.000Z', '5138-11-16T09:46:40.000Z', None]:
         return None
     time_split = text.strip("Z").split("T")
     year, month, day = time_split[0].split("-")
@@ -136,6 +137,11 @@ def parse_source_category(report_types):
 
 
 def parse_ioc_type(cti_ioc_type):
+    """
+    将cti中的ioc类型转换成中资需要的类型
+    :param cti_ioc_type: cti中的ioc类型
+    :return: 中资需要的ioc类型
+    """
     type_dict = {
         "Domain-Name": "ioc_domain",
         "StixFile": "ioc_md5",
@@ -146,6 +152,25 @@ def parse_ioc_type(cti_ioc_type):
     }
     if cti_ioc_type in type_dict.keys():
         return type_dict[cti_ioc_type]
+    return None
+
+
+def reverse_ioc_type(ioc_type):
+    """
+    将中资的ioc类型转换成cti的ioc类型
+    :param ioc_type: 将中资的ioc类型
+    :return: cti的ioc类型
+    """
+    type_dict = {
+        "ioc_domain": "Domain-Name",
+        "Domain-ioc_md5": "StixFile",
+        "ioc_url": "URL",
+        "ioc_mail": "Email",
+        "ioc_ipv4": "IPv4-Addr",
+        "ioc_ipv6": "IPv6-Addr"
+    }
+    if ioc_type in type_dict.keys():
+        return type_dict[ioc_type]
     return None
 
 
@@ -197,6 +222,40 @@ def load_query_data(query_file_name):
     return df.values
 
 
+def from_txt_to_list():
+    file_path = 'country_name.txt'
+    country_text = open(file_path, 'r', encoding='utf-8')
+    # print(country_text)
+    country_list = []
+    for line in country_text.readlines():
+        line = line.rstrip("\n")
+        country_list.append(line)
+    # print(country_list)
+    return country_list
+
+
+def get_all_country_CHN():
+    country_list = from_txt_to_list()
+    country_CHN = []
+    for c in country_list:
+        country_CHN.append(c.split(" : ")[0])
+    return country_CHN
+
+
+def is_chinese_char(char):
+    """判断单个字符是否为中文"""
+    return 'CJK' in unicodedata.name(char)
+
+
+def is_chinese_string(string):
+    """判断字符串是否全为中文"""
+    for char in string:
+        if not is_chinese_char(char):
+            return False
+    return True
+
+
 if __name__ == '__main__':
     # load_label_dict()
-    load_query_data("Query text demo/IOC_text.csv")
+    # load_query_data("Query text demo/IOC_text.csv")
+    print(get_all_country_CHN())
