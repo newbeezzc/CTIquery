@@ -1,0 +1,2418 @@
+[
+    {
+        "ioc": "ohotechnologies.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "malicious_family",
+        "value": "CN360Malware-FormBook",
+        "relation_type": "related-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "arquiobra.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "angelome.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "axander.net",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "lisandrofigueredo.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "hns.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.iowabasementrepair.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "kakaindia.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "support.ttdns.net",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "vidalinmobiliariacampana.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.chka.net",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.truthstorylove.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mail.lemera.se",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "promessdev.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "nowthisisjizzwailing.wtf",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "ferreiropropiedades.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "maestrarosasergi.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "hmilano.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "evatockeryasoc.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mchbroker.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.bakesaleheros.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "xmike.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "secure.nomacorc.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.ofsoptics.net",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "call.aims360.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "walkyourcross.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "torrespropiedades.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "nicholswire.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "videos.timtube.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "bank.pingan.com.clarkcrowncard.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "outgoing.purity-water.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "tweedledee.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "taverne-des-rolistes.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "webmail.easi.ro",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "boostreet.net",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "bot.spider.funkysouls.ru",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "no-exist-subdomain-pre.marcorpurification.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "ivs.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cuatro.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cloudmore.co",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "zhangfeng1631.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "operaed.org",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "garfinkelimmigration.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "nuclease.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "espinapropiedades.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "susanaruiz.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "christiankarlsson.net",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "jjsthrasherdeal.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "erropropiedades.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "threebuddies.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "nftaxedg.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "hornets.youthbasketball.greenwoodchristian.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mail.syncronit.se",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "vetterli.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cianciopropiedades.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "web.threedots.net",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "raptorsgridiron.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "support-no.hoistlocatel.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cdrcb.com.skohan.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "sabrinaalvarezpropiedades.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.fluid-solutions.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "kikai.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "josepintimalli.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "loneoakmember.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "smtp.mail.nomacorc.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "jglinmobiliaria.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mdofficesolutions.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "npgo.fi",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "webmail.terranuna.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.smartreg.co.uk",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "carhirebuddy.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "webacc1.mooreheadcomm.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "xn--pass-comptences-jnb.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "rorbolaget.net",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "ndggqgq.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cns.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cloudmore.at",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "careers.barrick.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "oroking.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cataruozzolonordelta.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "loneoakfund-news.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "shop.onthegofuelsaver.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "businessdiscovery.aims360.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "torontoinvestigations.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mail.bulldoggekonomi.se",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "gaugarte.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.theuptimegroup.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "bugs.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "kaflour.net",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "karo.ca",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.alexcoaz.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "dc-low.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "crhomepropiedades.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "itrelation.se",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "bellwood.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.kaisertwd.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "webmail.acluwest.org",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "siam.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "xn--jarrullinen-perkrry-uwbb.fi",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mail2.nomacorc.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "wbsubdomain.a.bb.ccc.dddd.meduniverse.org",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cmsun.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.timtube.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "hurricanes.youthsoccer.greenwoodchristian.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "opc.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.necessitysolutions.tech",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "fbtubt.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "zehrer.biz",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "tb9.timtube.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "ctlsgdc01.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "sec-ignet.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "webmail.hoistcloud.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "bakingeducation.org",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "rolfsteffen-pc.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "gridheart.se",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mudbug.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mail.cignex.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mail.funkysouls.ru",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "barrickexploration.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "hpcndbd.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "h3healthykitchen.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "training.aimstsi.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "magicdentist.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "figliaterra.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "danielcarrenoprop.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.openpond.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.epipheoproductions.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mail.sparktrade.se",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "home.barrick.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "bakeforgood.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "karo.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "napc.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "relay.nomacorc.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "host191.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "ingenieromateos.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cpilondon.org",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "gasport.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "today.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "rhoffman.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cloudmore.nl",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.xn--frimrkshuset-jcb.se",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "morison.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "clarkcrownbrands.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "simile.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "exchange.nomacorc.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "shopthreedots.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "magaly.mayoly-spindler.fr",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "gothrasheregress.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "perddims16.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "ipb.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.grafpropiedades.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.rsvpomahabasements.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "smtps.nomacorc.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "nau.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "archive.bluetrans.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.shopthreedots.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "thecoalreserve.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "desarrollista.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "smtp.crownfleet.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "epipheoproductions.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "cdrcb.com.clarkcrownbrands.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.frimarkshuset-skandinaviskfilateli.se",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "csa3.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.cignex.co.uk",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.quantumprint.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mail.med-universe.mobi",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "uljxvwyuv.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "sabelladelcastillo.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "mail.classydye.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "coco-momente.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "landajopropiedades.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.roco-me.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.clarkcrownfuelsaver.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "oil-drop.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "funkyreleases.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "redalianza.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "thrasherbasementfinishing.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.rejoignezexpedia.fr",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "fluid-solutions.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "channahonfamilydentistry.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "loneoakmembers.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "apparelcart.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "shop.funkysouls.org",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.cloudmore.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "travelassistnetwork.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "snpbranchdemo.cms.scot",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "webmail.cpiclimatefinance.org",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.interstateconstructors.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.threebuddies.com.au",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "asl-overseas.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.asl-overseas.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "yardarm.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "henricopolice.org",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "hadley.marcorservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.spedicijamkd.com.mk",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "kasperki.com.ar",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "jobs.webitservices.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.loneoakmortgage.com",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "96.45.82.36",
+        "ioc_type": "ioc_ipv4",
+        "object_type": "ioc_domain",
+        "value": "www.theroadhomehalfmarathon.org",
+        "relation_type": "resolves-to",
+        "relation_order": 1
+    },
+    {
+        "ioc": "190-204-74-4.dyn.dsl.cantv.net",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "190.204.74.4",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "angelome.com.ar",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "prometal.akadnyx.net",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "w.littleconducive.top",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "axander.net",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.sports-future.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "m.kuangyedeai.xyz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.s1z7sg.shop",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "lisandrofigueredo.com.ar",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "morphiate.poojakamahatva.site",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "hns.marcorservices.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "anwritri.gq",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.iowabasementrepair.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "muscnonritinsta.ga",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.valentinavalentinmodafeminina.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "adopear.ml",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "pool-72-88-245-71.nwrknj.fios.verizon.net",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "72.88.245.71",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "kakaindia.marcorservices.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "support.ttdns.net",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.deefydsygredr.buzz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "vidalinmobiliariacampana.com.ar",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.chka.net",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "78c9b0545a251659945ebb4f07c701f5.christophermarrphotography.co.uk",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "creekdarderbno.ml",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.4142658.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.truthstorylove.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "cni.knocksbitlab.site",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "mail.lemera.se",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "weide669.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "webdisk.vdevideojuegos.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "promessdev.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "nowthisisjizzwailing.wtf",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "1668456773.9pu.org",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "deltarp.xyz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "nafazzmomies.co",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.otwbln.pl",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "sandiklisekssohbeti.xyz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.sciepy.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "ferreiropropiedades.com.ar",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "maestrarosasergi.marcorservices.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "ffmvelxm.icu",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "hmilano.com.ar",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "bdtz1.halloweentowngathering.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "adminaffairs-www.yyxxyc.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "evatockeryasoc.com.ar",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "rekemaward.ga",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "a9mastermind.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "ellymx.cyou",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "mchbroker.com.ar",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "static.213-239-212-5.clients.your-server.de",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "213.239.212.5",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.bakesaleheros.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "xmike.marcorservices.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "patksbff.click",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "mebledlawas.buzz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "secure.nomacorc.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.ofsoptics.net",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "f6187ccfc1d198165e6372f6253006e2.christophermarrphotography.co.uk",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "cpcontacts.nawiisland.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "mictobig.xyz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:6815:3298",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "mictobig.xyz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "104.21.50.152",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "mictobig.xyz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:ac43:a3ef",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "mictobig.xyz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "91.197.0.122",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "call.aims360.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "sld.knocksbitlab.site",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "camilla.ink",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "walkyourcross.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "dre.bthaha.buzz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "torrespropiedades.com.ar",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "nicholswire.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.creditcardforpaypal.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "zopatye.info",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "mautic.mentoriabarberbusiness.com.br",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "videos.timtube.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "bank.pingan.com.clarkcrowncard.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "outgoing.purity-water.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "binary-option.galsopost.cf",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "wzx.knocksbitlab.site",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "pretogotorlin.cf",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "hebinilat.xyz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.picomy.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.forshoppingstop.xyz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "landmarqconstruction.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "tweedledee.marcorservices.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "spansathinmaicol.ga",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.biovetfarm.com.ua",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "simpcargatagno.tk",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "relaxwilliamsburg.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "9c530c0d75160c114250bf472a38326e.christophermarrphotography.co.uk",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "webdisk.kigyou-sapporo.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "sandnodeso.tk",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "progriu.top",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "172.67.173.53",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "progriu.top",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3036:0000:0000:0000:ac43:ad35",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "progriu.top",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "104.21.30.156",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "pc-48-40-44-190.cm.vtr.net",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "190.44.40.48",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "7927.lylaozhongyi.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "xn--8-jyfi9d7a5f.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "arcticgo.today",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3032:0000:0000:0000:6815:407a",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "taverne-des-rolistes.marcorservices.com",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "www.jpeeghigh8.xyz",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "webmail.easi.ro",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv4",
+        "value": "96.45.82.36",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "complulbecan.cf",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    },
+    {
+        "ioc": "fishfol.lycoun.asia",
+        "ioc_type": "ioc_domain",
+        "object_type": "ioc_ipv6",
+        "value": "2606:4700:3037:0000:0000:0000:ac43:8572",
+        "relation_type": "resolves-to",
+        "relation_order": 0
+    }
+]

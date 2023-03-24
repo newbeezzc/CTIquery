@@ -1,0 +1,602 @@
+[
+    {
+        "domain": "ip174-69-215-101.lf.br.cox.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "174.69.215.101"
+    },
+    {
+        "domain": "ip-94-122-91-144.static.contabo.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "144.91.122.94"
+    },
+    {
+        "domain": "BC9D06AA.catv.pool.telekom.hu",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "188.157.6.170"
+    },
+    {
+        "domain": "lfbn-bor-1-488-206.w86-213.abo.wanadoo.fr",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "86.213.191.206"
+    },
+    {
+        "domain": "ns530300.ip-198-27-67.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "198.27.67.35"
+    },
+    {
+        "domain": "81.184.181.215.dyn.user.ono.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "81.184.181.215"
+    },
+    {
+        "domain": "hwsrv-1005667.hostwindsdns.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "192.255.188.11"
+    },
+    {
+        "domain": "kap7.nirbak.us",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "205.185.121.162"
+    },
+    {
+        "domain": "mx.ukraine.blackstone-investmentgroup.xyz",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "198.98.56.9"
+    },
+    {
+        "domain": "li1597-169.members.linode.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "139.162.113.169"
+    },
+    {
+        "domain": "BC9C5525.catv.pool.telekom.hu",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "188.156.85.37"
+    },
+    {
+        "domain": "cpe-172-115-177-204.socal.res.rr.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "172.115.177.204"
+    },
+    {
+        "domain": "D",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "64.44.98.157"
+    },
+    {
+        "domain": "host202.186-64-87.nodosud.com.ar",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "186.64.87.202"
+    },
+    {
+        "domain": "149.28.238.199.vultr.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "149.28.238.199"
+    },
+    {
+        "domain": "hwsrv-1006887.hostwindsdns.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "198.84.123.61"
+    },
+    {
+        "domain": "dynamic-ip-18686212138.cable.net.co",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "186.86.212.138"
+    },
+    {
+        "domain": "105.ip-54-37-70.eu",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "54.37.70.105"
+    },
+    {
+        "domain": "host-181-177-156-209.supernet.com.bo",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "181.177.156.209"
+    },
+    {
+        "domain": "dsl-189-243-187-76-dyn.prod-infinitum.com.mx",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "189.243.187.76"
+    },
+    {
+        "domain": "46-10-105-160.ip.btc-net.bg",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "46.10.105.160"
+    },
+    {
+        "domain": "ns328458.ip-37-187-114.eu",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "37.187.114.15"
+    },
+    {
+        "domain": "172-105-115-71.ip.linodeusercontent.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "172.105.115.71"
+    },
+    {
+        "domain": "bb121-7-223-38.singnet.com.sg",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "121.7.223.38"
+    },
+    {
+        "domain": "42-193-93-172.reverse-dns",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "172.93.193.42"
+    },
+    {
+        "domain": "197-92-143-218.hff.mweb.co.za",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "197.92.143.218"
+    },
+    {
+        "domain": "23-29-115-164.static.hvvc.us",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "23.29.115.164"
+    },
+    {
+        "domain": "173-218-180-91.mid.dyn.suddenlink.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "173.218.180.91"
+    },
+    {
+        "domain": "srv-web.ffconsulting.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "51.178.161.32"
+    },
+    {
+        "domain": "88.232.207.24.dynamic.ttnet.com.tr",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "88.232.207.24"
+    },
+    {
+        "domain": "li1190-89.members.linode.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "45.79.91.89"
+    },
+    {
+        "domain": "host123.181-118-183.nodosud.com.ar",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "181.118.183.123"
+    },
+    {
+        "domain": "mail.sidwebhost.xyz",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "107.189.5.45"
+    },
+    {
+        "domain": "5403551E.catv.pool.telekom.hu",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "84.3.85.30"
+    },
+    {
+        "domain": "ns509018.ip-192-99-150.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "192.99.150.39"
+    },
+    {
+        "domain": "216.238.83.82.vultrusercontent.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "216.238.83.82"
+    },
+    {
+        "domain": "b369b6d8.virtua.com.br",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "179.105.182.216"
+    },
+    {
+        "domain": "bba143297.alshamil.net.ae",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "217.165.146.41"
+    },
+    {
+        "domain": "245.85-86-242.dynamic.clientes.euskaltel.es",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "85.86.242.245"
+    },
+    {
+        "domain": "c-68-53-110-74.hsd1.tn.comcast.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "68.53.110.74"
+    },
+    {
+        "domain": "host6.186-64-67.nodosud.com.ar",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "186.64.67.6"
+    },
+    {
+        "domain": "196-82-82-173-dedicated.multacom.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "173.82.82.196"
+    },
+    {
+        "domain": "3598.no-ip.biz-1",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "198.211.118.165"
+    },
+    {
+        "domain": "pool-72-88-245-71.nwrknj.fios.verizon.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "72.88.245.71"
+    },
+    {
+        "domain": "static-47-180-172-159.lsan.ca.frontiernet.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "47.180.172.159"
+    },
+    {
+        "domain": "hwsrv-1005655.hostwindsdns.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "192.119.74.28"
+    },
+    {
+        "domain": "140.82.63.183.vultr.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "140.82.63.183"
+    },
+    {
+        "domain": "smtp21.chuuqnshi.xyz",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "198.98.59.64"
+    },
+    {
+        "domain": "ip-51-68-157.eu",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "51.68.157.245"
+    },
+    {
+        "domain": "197-94-84-128.hff.mweb.co.za",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "197.94.84.128"
+    },
+    {
+        "domain": "186-90-144-235.genericrev.cantv.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "186.90.144.235"
+    },
+    {
+        "domain": "cs-212-112-86-37.to1.ccws.it",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "212.112.86.37"
+    },
+    {
+        "domain": "209-141-48-135.canada-ab.co",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "209.141.48.135"
+    },
+    {
+        "domain": "raptor101.startdedicated.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "209.239.112.82"
+    },
+    {
+        "domain": "0.ip-51-38-71.eu",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "51.38.71.0"
+    },
+    {
+        "domain": "Dinamic-Tigo-177-255-14-99.tigo.com.co",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "177.255.14.99"
+    },
+    {
+        "domain": "208-107-221-224-dynamic.midco.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "208.107.221.224"
+    },
+    {
+        "domain": "177.205.74.14.dynamic.adsl.gvt.net.br",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "177.205.74.14"
+    },
+    {
+        "domain": "li64-115.members.linode.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "97.107.134.115"
+    },
+    {
+        "domain": "149.28.156.183.vultrusercontent.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "149.28.156.183"
+    },
+    {
+        "domain": "i15-les04-th2-31-35-28-29.sfr.lns.abo.bbox.fr",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "31.35.28.29"
+    },
+    {
+        "domain": "123-101-44-64.reverse-dns",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "64.44.101.123"
+    },
+    {
+        "domain": "179-111-23-186.dsl.telesp.net.br",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "179.111.23.186"
+    },
+    {
+        "domain": "dynamic.libertypr.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "24.55.67.176"
+    },
+    {
+        "domain": "vps-2283eabf.vps.ovh.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "146.59.151.250"
+    },
+    {
+        "domain": "ip194.ip-51-161-73.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "51.161.73.194"
+    },
+    {
+        "domain": "28.ip-149-56-131.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "149.56.131.28"
+    },
+    {
+        "domain": "mta12.sofortpillen-at-ch.de",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "198.98.55.214"
+    },
+    {
+        "domain": "vps-3a6c6346.vps.ovh.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "51.210.176.76"
+    },
+    {
+        "domain": "70.46.220.114.nw.nuvox.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "70.46.220.114"
+    },
+    {
+        "domain": "lfbn-orl-1-477-62.w86-196.abo.wanadoo.fr",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "86.196.181.62"
+    },
+    {
+        "domain": "dsl-187-198-8-241-dyn.prod-infinitum.com.mx",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "187.198.8.241"
+    },
+    {
+        "domain": "200-161-62-126.dsl.telesp.net.br",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "200.161.62.126"
+    },
+    {
+        "domain": "57.ip-142-44-247.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "142.44.247.57"
+    },
+    {
+        "domain": "lputeaux-658-1-95-249.w193-253.abo.wanadoo.fr",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "193.253.44.249"
+    },
+    {
+        "domain": "97e73cc8.skybroadband.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "151.231.60.200"
+    },
+    {
+        "domain": "228-180-193-190.cab.prima.net.ar",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "190.193.180.228"
+    },
+    {
+        "domain": "c-76-25-142-196.hsd1.co.comcast.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "76.25.142.196"
+    },
+    {
+        "domain": "78.162.213.155.dynamic.ttnet.com.tr",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "78.162.213.155"
+    },
+    {
+        "domain": "134-135-44-64.reverse-dns",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "64.44.135.134"
+    },
+    {
+        "domain": "47-156-129-52.lsan.ca.frontiernet.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "47.156.129.52"
+    },
+    {
+        "domain": "leogestionale.it",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "165.227.153.100"
+    },
+    {
+        "domain": "bba143414.alshamil.net.ae",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "217.165.146.158"
+    },
+    {
+        "domain": "host86-132-13-49.range86-132.btcentralplus.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "86.132.13.49"
+    },
+    {
+        "domain": "186.250.48.117.redfoxtelecom.com.br",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "186.250.48.117"
+    },
+    {
+        "domain": "shi2588758.lnk.telstra.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "120.150.218.241"
+    },
+    {
+        "domain": "096-037-113-036.res.spectrum.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "96.37.113.36"
+    },
+    {
+        "domain": "179-113-97-4.user.vivozap.com.br",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "179.113.97.4"
+    },
+    {
+        "domain": "pc-122-149-100-190.cm.vtr.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "190.100.149.122"
+    },
+    {
+        "domain": "ip63.ip-54-36-185.eu",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "54.36.185.63"
+    },
+    {
+        "domain": "94-52-127-44.next-gen.ro",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "94.52.127.44"
+    },
+    {
+        "domain": "ip-213-32-75.eu",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "213.32.75.32"
+    },
+    {
+        "domain": "hwsrv-1001809.hostwindsdns.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "104.168.243.178"
+    },
+    {
+        "domain": "190-205-229-67.dyn.dsl.cantv.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "190.205.229.67"
+    },
+    {
+        "domain": "sexym.de",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "82.165.145.100"
+    },
+    {
+        "domain": "host-ip26-215-249-89.wise.net.lb",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "89.249.215.26"
+    },
+    {
+        "domain": "ip151.ip-188-165-79.eu",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "188.165.79.151"
+    },
+    {
+        "domain": "149.28.63.197.vultrusercontent.com",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "149.28.63.197"
+    },
+    {
+        "domain": "66-230-104-103-dsl-rb1.nwc.acsalaska.net",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "66.230.104.103"
+    },
+    {
+        "domain": "dynamic-190-26-159-133.dynamic.etb.net.co",
+        "analysis_type": null,
+        "discovery_time": "2022-10-17",
+        "analytic_value": "190.26.159.133"
+    }
+]

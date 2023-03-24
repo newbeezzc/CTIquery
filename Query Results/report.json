@@ -1,0 +1,416 @@
+[
+    {
+        "report_id": "fc7b1c81-401e-41e3-b406-20410a3de17a",
+        "title": "Investigating the PlugX Trojan Disguised as a Legitimate Windows Debugger Tool",
+        "author": "RiskIQ",
+        "report_time": "2023-02-24",
+        "description": "Trend Micro’s Managed Extended Detection and Response (MxDR) team discovered that a file called x32dbg.exe was used to sideload a malicious DLL we identified as a variant of PlugX. ",
+        "content": null,
+        "original_link": "https://community.riskiq.com/article/024175ba",
+        "intelligence_type": [],
+        "label": [],
+        "source": "UESTC",
+        "source_category": "厂商情报订阅",
+        "attack_industry": [],
+        "organization": [],
+        "target_area": [],
+        "download_link": "https://community.riskiq.com/article/024175ba",
+        "sharing_scope": 0,
+        "shared_industry": null,
+        "relate_ioc": [
+            {
+                "ioc": "0e9071714a4af0be1f96cffc3b0e58520b827d9e58297cb0e02d97551eca3799",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "553ff37a1eb7e8dc226a83fa143d6aab8a305771bf0cec7b94f4202dcd1f55b2",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "e72e49dc1d95efabc2c12c46df373173f2e20dab715caf58b1be9ca41ec0e172",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "b4f1cae6622cd459388294afb418cb0af7a5cb82f367933e57ab8c1fb0a8a8a7",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "0490ceace858ff7949b90ab4acf4867878815d2557089c179c9971b2dd0918b9",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "160.20.147.254",
+                "ioc_type": "ioc_ipv4"
+            }
+        ]
+    },
+    {
+        "report_id": "3d941854-37a9-4fe3-8194-1438dd659b2e",
+        "title": "Gamaredon Exploits Hoaxshell to Target Ukrainian Organizations",
+        "author": "AlienVault",
+        "report_time": "2023-02-20",
+        "description": "Gamaredon is a Russian state-sponsored hacking group that has been active since at least 2013. The group is believed to be responsible for a number of cyber attacks against Ukrainian targets, including military, government, and critical infrastructure organizations.",
+        "content": null,
+        "original_link": "https://otx.alienvault.com/pulse/63f3a133dae205b542308b8b",
+        "intelligence_type": [],
+        "label": [],
+        "source": "UESTC",
+        "source_category": "厂商情报订阅",
+        "attack_industry": [
+            "Heavy industries",
+            "Defense ministries (including the military)",
+            "Government and administrations"
+        ],
+        "organization": [
+            "Gamaredon"
+        ],
+        "target_area": [
+            "Ukraine"
+        ],
+        "download_link": "https://otx.alienvault.com/pulse/63f3a133dae205b542308b8b",
+        "sharing_scope": 0,
+        "shared_industry": null,
+        "relate_ioc": [
+            {
+                "ioc": "0724a8db352e34fc2597974099bf0376d0d31780c0b02e1edb2bcb5905d852dc",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "d9c89bf2575ceb88bb395fc1e77895a95fe600856a8b0d5eadcd47cf8d066c41",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "2ad5a546eae0feabadd0d4416eb03cbda697a25a1f9528c0dce46cefa4dc550a",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "141.8.197.42",
+                "ioc_type": "ioc_ipv4"
+            },
+            {
+                "ioc": "141.8.192.151",
+                "ioc_type": "ioc_ipv4"
+            }
+        ]
+    },
+    {
+        "report_id": "b6af51e3-5f8f-42f6-b1b8-083a4376a9b9",
+        "title": "SoulSearcher Worm",
+        "author": "AlienVault",
+        "report_time": "2023-02-20",
+        "description": "OALABS found a set of samples sharing a library between the worm-set and the soulsearcher set.",
+        "content": null,
+        "original_link": "https://research.openanalysis.net/yara/soulsearcher/intel/malpedia/worm/2023/02/16/soulsearcher-worm.html",
+        "intelligence_type": [],
+        "label": [],
+        "source": "UESTC",
+        "source_category": "厂商情报订阅",
+        "attack_industry": [],
+        "organization": [],
+        "target_area": [],
+        "download_link": "https://research.openanalysis.net/yara/soulsearcher/intel/malpedia/worm/2023/02/16/soulsearcher-worm.html",
+        "sharing_scope": 0,
+        "shared_industry": null,
+        "relate_ioc": [
+            {
+                "ioc": "a6f75af45c331a3fac8d2ce010969f4954e8480cbe9f9ea19ce3c51c44d17e98",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "579fa00bc212a3784d523f8ddd0cfc118f51ca926d8f7ea2eb6e27157ec61260",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "1af5252cadbe8cef16b4d73d4c4886ee9cecddd3625e28a59b59773f5a2a9f7f",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "7a9397dc47ce8a604c359da17dded029580b56cc6d988e841eaaabe622b23fa4",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "69a9ab243011f95b0a1611f7d3c333eb32aee45e74613a6cddf7bcb19f51c8ab",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "a36f318370a5ace5f9c4611c1f8edfffdb05dd8e109a3dd2127ca3881670d7bd",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "fc2642273c70d99a172ce45f57fe02d7f65b0ecd2b29b882ce84d0f3e01c8197",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "b3ba13bbd74e20a40d9c02c0398a474c93a352322211561f35d60cdc26739477",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "0f7af0cad4aade0e7058051a449059b35358ddda075d88b2d289625adc02deef",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "a803aa42fe614cafdb86da10d730cecbc8a2432eb7080fd004e640cc536b595c",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "4824d76a4d15840e30bb0a3da01757c22502f0d9cfeac05e9219100c477beeee",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "c4efb58723fd75d51eb92302fbd7541e4462f438282582b5efa3c6c7685e69fd",
+                "ioc_type": "ioc_md5"
+            }
+        ]
+    },
+    {
+        "report_id": "dcd15dca-38ba-4413-aadd-88c0f68c80f1",
+        "title": "Earth Kitsune Delivers New WhiskerSpy Backdoor via Watering Hole Attack",
+        "author": "AlienVault",
+        "report_time": "2023-02-20",
+        "description": "Trendmicro discovered a new backdoor which they have attributed to the advanced persistent threat actor known as Earth Kitsune, which they have covered before. Since 2019, Earth Kitsune has been distributing variants of self-developed backdoors to targets, primarily individuals who are interested in North Korea. In many of the cases, they have investigated in the past, the threat actor used watering hole tactics by compromising websites related to North Korea and injecting browser exploits into them. In the latest activity they analyze here, Earth Kitsune used a similar tactic but instead of using browser exploits, employed social engineering instead.",
+        "content": null,
+        "original_link": "https://www.trendmicro.com/en_us/research/23/b/earth-kitsune-delivers-new-whiskerspy-backdoor.html",
+        "intelligence_type": [],
+        "label": [],
+        "source": "UESTC",
+        "source_category": "厂商情报订阅",
+        "attack_industry": [],
+        "organization": [],
+        "target_area": [
+            "Brazil",
+            "Korea, Democratic People's Republic of"
+        ],
+        "download_link": "https://www.trendmicro.com/en_us/research/23/b/earth-kitsune-delivers-new-whiskerspy-backdoor.html",
+        "sharing_scope": 0,
+        "shared_industry": null,
+        "relate_ioc": [
+            {
+                "ioc": "e82e1fb775a0181686ad0d345455451c87033cafde3bd84512b6e617ace3338e",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "172.93.201.172",
+                "ioc_type": "ioc_ipv4"
+            },
+            {
+                "ioc": "45.76.62.198",
+                "ioc_type": "ioc_ipv4"
+            }
+        ]
+    },
+    {
+        "report_id": "dcf7deb4-d684-491a-861a-ff2e80888d11",
+        "title": "Multilingual Skimmer Fingerprints 'Secret Shoppers' via Cloudflare Endpoint API",
+        "author": "RiskIQ",
+        "report_time": "2023-02-21",
+        "description": "Malwarebytes recently spotted a Magecart skimmer that collects the current victim's IP address and browser user-agent in addition to their email, address, phone number and credit card data. Because the victim already filled in their home address, they believe this is a fingerprinting effort much like what is done in traditional malware campaigns.",
+        "content": null,
+        "original_link": "https://community.riskiq.com/article/b2564d0a",
+        "intelligence_type": [],
+        "label": [],
+        "source": "UESTC",
+        "source_category": "厂商情报订阅",
+        "attack_industry": [],
+        "organization": [],
+        "target_area": [],
+        "download_link": "https://community.riskiq.com/article/b2564d0a",
+        "sharing_scope": 0,
+        "shared_industry": null,
+        "relate_ioc": [
+            {
+                "ioc": "gogletags.click",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "gtag-analytics.com",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "http://gtag-analytics.com/analytics/25198/script.js?key=",
+                "ioc_type": "ioc_url"
+            },
+            {
+                "ioc": "http://gtag-analytics.com/analytics/15798/script.js?key=",
+                "ioc_type": "ioc_url"
+            },
+            {
+                "ioc": "http://gtag-analytics.com/analytics/32444/script.js?key=",
+                "ioc_type": "ioc_url"
+            },
+            {
+                "ioc": "http://gtag-analytics.com/analytics/31826/script.js?key=",
+                "ioc_type": "ioc_url"
+            },
+            {
+                "ioc": "http://gtag-analytics.com/analytics/65526/script.js?key=",
+                "ioc_type": "ioc_url"
+            },
+            {
+                "ioc": "http://gtag-analytics.com/analytics/34515/script.js?key=",
+                "ioc_type": "ioc_url"
+            },
+            {
+                "ioc": "http://gtag-analytics.com/analytics/18452/script.js?key=",
+                "ioc_type": "ioc_url"
+            }
+        ]
+    },
+    {
+        "report_id": "7a1d3e1e-c5de-480b-96e2-cef5810f52be",
+        "title": "Stealc, a copycat of Vidar and Raccoon infostealers gaining in popularity",
+        "author": "AlienVault",
+        "report_time": "2023-02-20",
+        "description": "In January 2023, through our Dark Web monitoring routine, SEKOIA.IO identified a new information stealer advertised as Stealc by its alleged developer, going by the handle Plymouth. The threat actor presents Stealc as a fully featured and ready-to-use stealer, whose development relied on Vidar, Raccoon, Mars and Redline stealers. This information suggests that this newcomer could be a serious competitor to the popular widespread malware families mentioned above.",
+        "content": null,
+        "original_link": "https://github.com/SEKOIA-IO/Community/blob/main/IOCs/stealc/stealc_iocs_20230220.csv",
+        "intelligence_type": [
+            "恶意软件"
+        ],
+        "label": [
+            "其他恶意软件"
+        ],
+        "source": "UESTC",
+        "source_category": "厂商情报订阅",
+        "attack_industry": [],
+        "organization": [],
+        "target_area": [],
+        "download_link": "https://github.com/SEKOIA-IO/Community/blob/main/IOCs/stealc/stealc_iocs_20230220.csv",
+        "sharing_scope": 0,
+        "shared_industry": null,
+        "relate_ioc": [
+            {
+                "ioc": "666palm.com",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "777palm.com",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "aa-cj.com",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "moneylandry.com",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "rcc-software.com",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "fff-ttt.com",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "streetlifegaming.com",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "start-not.com",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "1e09d04c793205661d88d6993cb3e0ef5e5a37a8660f504c1d36b0d8562e63a2",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "87f18bd70353e44aa74d3c2fda27a2ae5dd6e7d238c3d875f6240283bc909ba6",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "77d6f1914af6caf909fa2a246fcec05f500f79dd56e5d0d466d55924695c702d",
+                "ioc_type": "ioc_md5"
+            },
+            {
+                "ioc": "37.120.238.190",
+                "ioc_type": "ioc_ipv4"
+            },
+            {
+                "ioc": "65.109.3.34",
+                "ioc_type": "ioc_ipv4"
+            },
+            {
+                "ioc": "185.5.248.95",
+                "ioc_type": "ioc_ipv4"
+            },
+            {
+                "ioc": "167.235.62.105",
+                "ioc_type": "ioc_ipv4"
+            },
+            {
+                "ioc": "162.0.238.10",
+                "ioc_type": "ioc_ipv4"
+            },
+            {
+                "ioc": "94.131.99.185",
+                "ioc_type": "ioc_ipv4"
+            },
+            {
+                "ioc": "94.142.138.48",
+                "ioc_type": "ioc_ipv4"
+            },
+            {
+                "ioc": "146.70.161.51",
+                "ioc_type": "ioc_ipv4"
+            },
+            {
+                "ioc": "176.124.192.200",
+                "ioc_type": "ioc_ipv4"
+            }
+        ]
+    },
+    {
+        "report_id": "21d6ef95-89cf-4a98-be02-51927e0b5c52",
+        "title": "Magecart Attack Disguised as Google Tag Manager",
+        "author": "AlienVault",
+        "report_time": "2023-02-20",
+        "description": "A new sophisticated Magecart web skimming campaign has been discovered on several ecommerce websites. Magecart attacks are a type of cybercrime that specifically targets online retailers. These attacks involve injecting malicious JavaScript code into the payment pages of websites, which captures customers’ sensitive information as soon as it is input and sends it to the attacker's server. This information can include credit card numbers and personal details.",
+        "content": null,
+        "original_link": "https://otx.alienvault.com/pulse/63f3962097ceba1a755d275c",
+        "intelligence_type": [],
+        "label": [],
+        "source": "UESTC",
+        "source_category": "厂商情报订阅",
+        "attack_industry": [],
+        "organization": [],
+        "target_area": [],
+        "download_link": "https://otx.alienvault.com/pulse/63f3962097ceba1a755d275c",
+        "sharing_scope": 0,
+        "shared_industry": null,
+        "relate_ioc": [
+            {
+                "ioc": "yachtbars.fun",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "rithdigit.cyou",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "antohub.shop",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "app-stat.com",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "magento-cdn.net",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "okqtfc1.org",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "nebiltech.shop",
+                "ioc_type": "ioc_domain"
+            },
+            {
+                "ioc": "jquery-node.com",
+                "ioc_type": "ioc_domain"
+            }
+        ]
+    }
+]

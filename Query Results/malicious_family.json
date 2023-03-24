@@ -1,0 +1,2091 @@
+[
+    {
+        "malware_id": "5c3aebc4-b1b7-41a9-aa2b-2682b24eb5e4",
+        "malware_name": "CN360Malware-Dendroid",
+        "internal_number": null,
+        "family_description": "研究人员发现了以前发现的Android恶意软件的新样本，据信该恶意软件与APT39伊朗网络间谍威胁组织有关。新版本具有新的监视功能-包括侦听受害者的Skype，Instagram和WhatsApp即时消息的功能。",
+        "discover_time": null,
+        "aliases": null,
+        "attack_impact": "无",
+        "communication_ways": [],
+        "features": [],
+        "threat_type": "其他远控",
+        "impact_platform": [
+            "android"
+        ],
+        "reference_link": [],
+        "disposal_suggestions": "第一步：建议立即升级手机中的360手机卫士，进行全面杀毒。\n第二步：对检出的恶意APP或恶意模块进行卸载。\n第三步：打开360手机卫士中的“实时监控”功能，对手机操作进行主动防御，可以第一时间监控未知病毒的入侵活动，达到全方位保护手机安全的目的。\n第四步：针对第二步中未对恶意APP卸载成功，先备份个人重要信息，恢复出厂设置。"
+    },
+    {
+        "malware_id": "8341807d-8de4-485d-bace-3e4cd12225a2",
+        "malware_name": "CN360Malware-FormBook",
+        "internal_number": null,
+        "family_description": "一种信息窃取木马。在感染的系统中注入进程并安装钩子，能够记录按键、监控剪贴板、抓取表单和网络请求 、从浏览器和电子邮件客户端获取密码、屏幕截图。还能够根据攻击者命令下载和执行文件、启动进程、关闭和重新启动系统等。通过带恶意附件（带有下载链接的PDF、带有恶意宏的DOC和XLS文件、包含EXE有效负载的存档文件）的垃圾邮件分发。",
+        "discover_time": null,
+        "aliases": [
+            "CN360Malware-formbook"
+        ],
+        "attack_impact": "机密窃取",
+        "communication_ways": [
+            "漏洞利用"
+        ],
+        "features": [
+            "内存驻留",
+            "加密"
+        ],
+        "threat_type": "窃密木马",
+        "impact_platform": [
+            "windows"
+        ],
+        "reference_link": [],
+        "disposal_suggestions": "第一步：终止间谍木马的常驻进程或服务。\n第二步：使用360终端安全管理系统全盘扫描清除间谍木马文件。\n第三步：修复被篡改的系统设置，包括注册表、系统服务、计划任务等间谍木马常用位置。\n第四步：如果间谍木马无法清除或反复出现，请联系技术人员。\n第五步：及时更改您的身份验证信息，包括各种软件、网站、计算机和银行卡的密码等。\n    "
+    },
+    {
+        "malware_id": "d20b250e-8fb2-4b09-8fa3-55f10e74f065",
+        "malware_name": "FruitFly",
+        "internal_number": null,
+        "family_description": "FruitFly is designed to spy on mac users  (Citation: objsee mac malware 2017).",
+        "discover_time": null,
+        "aliases": [
+            "FruitFly"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0277",
+            "https://objective-see.com/blog/blog_0x25.html"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "1ad20251-22e3-4918-9e18-943354f3e857",
+        "malware_name": "WINERACK",
+        "internal_number": null,
+        "family_description": "[WINERACK](https://attack.mitre.org/software/S0219) is a backdoor used by [APT37](https://attack.mitre.org/groups/G0067). (Citation: FireEye APT37 Feb 2018)",
+        "discover_time": null,
+        "aliases": null,
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf",
+            "https://attack.mitre.org/software/S0219"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "06d045f5-3e19-40e3-bf51-f67ea6e33fb4",
+        "malware_name": "AndroRAT",
+        "internal_number": null,
+        "family_description": "[AndroRAT](https://attack.mitre.org/software/S0292) is malware that allows a third party to control the device and collect information. (Citation: Lookout-EnterpriseApps)",
+        "discover_time": null,
+        "aliases": null,
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://blog.lookout.com/blog/2016/05/25/spoofed-apps/",
+            "https://attack.mitre.org/software/S0292"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "4679172b-9907-4922-94cd-62c161d729f0",
+        "malware_name": "Smoke Loader",
+        "internal_number": null,
+        "family_description": "[Smoke Loader](https://attack.mitre.org/software/S0226) is a malicious bot application that can be used to load other malware.\n[Smoke Loader](https://attack.mitre.org/software/S0226) has been seen in the wild since at least 2011 and has included a number of different payloads. It is notorious for its use of deception and self-protection. It also comes with several plug-ins. (Citation: Malwarebytes SmokeLoader 2016) (Citation: Microsoft Dofoil 2018)",
+        "discover_time": null,
+        "aliases": [
+            "Smoke Loader",
+            "Dofoil"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign/",
+            "https://attack.mitre.org/software/S0226",
+            "https://blog.malwarebytes.com/threat-analysis/2016/08/smoke-loader-downloader-with-a-smokescreen-still-alive/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "2bf37681-9482-4df6-bce1-03d45102d57b",
+        "malware_name": "Remexi",
+        "internal_number": null,
+        "family_description": "[Remexi](https://attack.mitre.org/software/S0375) is a Windows-based Trojan that was developed in the C programming language.(Citation: Securelist Remexi Jan 2019)",
+        "discover_time": null,
+        "aliases": [
+            "Remexi"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://securelist.com/chafer-used-remexi-malware/89538/",
+            "https://attack.mitre.org/software/S0375"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "9d6efa22-8fdf-4bc6-a2d9-a66c5d2271ff",
+        "malware_name": "Cardinal RAT",
+        "internal_number": null,
+        "family_description": "[Cardinal RAT](https://attack.mitre.org/software/S0348) is a potentially low volume remote access trojan (RAT) observed since December 2015. [Cardinal RAT](https://attack.mitre.org/software/S0348) is notable for its unique utilization of uncompiled C# source code and the Microsoft Windows built-in csc.exe compiler.(Citation: PaloAlto CardinalRat Apr 2017)",
+        "discover_time": null,
+        "aliases": [
+            "Cardinal RAT"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0348",
+            "https://researchcenter.paloaltonetworks.com/2017/04/unit42-cardinal-rat-active-two-years/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "3feadcb7-ffac-448d-b616-af2aab9895b2",
+        "malware_name": "OSInfo",
+        "internal_number": null,
+        "family_description": "[OSInfo](https://attack.mitre.org/software/S0165) is a custom tool used by [APT3](https://attack.mitre.org/groups/G0022) to do internal discovery on a victim's computer and network. (Citation: Symantec Buckeye)",
+        "discover_time": null,
+        "aliases": [
+            "OSInfo"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0165",
+            "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "a09752ad-5dda-43ad-9094-cf3e5aa0be82",
+        "malware_name": "LoJax",
+        "internal_number": null,
+        "family_description": "[LoJax](https://attack.mitre.org/software/S0397) is a UEFI rootkit used by [APT28](https://attack.mitre.org/groups/G0007) to persist remote access software on targeted systems.(Citation: ESET LoJax Sept 2018)",
+        "discover_time": null,
+        "aliases": [
+            "LoJax"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.welivesecurity.com/wp-content/uploads/2018/09/ESET-LoJax.pdf",
+            "https://attack.mitre.org/software/S0397"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "f0230b62-6cd6-4479-bd7a-23ad7ca3a5b3",
+        "malware_name": "RemoteCMD",
+        "internal_number": null,
+        "family_description": "[RemoteCMD](https://attack.mitre.org/software/S0166) is a custom tool used by [APT3](https://attack.mitre.org/groups/G0022) to execute commands on a remote system similar to SysInternal's PSEXEC functionality. (Citation: Symantec Buckeye)",
+        "discover_time": null,
+        "aliases": [
+            "RemoteCMD"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0166",
+            "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "5bc161d0-b99f-4ec5-979c-8f6ed5079023",
+        "malware_name": "BabyShark",
+        "internal_number": null,
+        "family_description": "[BabyShark](https://attack.mitre.org/software/S0414) is a Microsoft Visual Basic (VB) script-based malware family that is believed to be associated with several North Korean campaigns. (Citation: Unit42 BabyShark Feb 2019)",
+        "discover_time": null,
+        "aliases": [
+            "BabyShark"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks/",
+            "https://attack.mitre.org/software/S0414",
+            "https://unit42.paloaltonetworks.com/babyshark-malware-part-two-attacks-continue-using-kimjongrat-and-pcrat/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "fc8d6245-a13a-4d9f-8e51-d28c01319e6d",
+        "malware_name": "Android/Chuli.A",
+        "internal_number": null,
+        "family_description": "[Android/Chuli.A](https://attack.mitre.org/software/S0304) is Android malware that was delivered to activist groups via a spearphishing email with an attachment. (Citation: Kaspersky-WUC)",
+        "discover_time": null,
+        "aliases": [
+            "Android/Chuli.A"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://securelist.com/android-trojan-found-in-targeted-attack-58/35552/",
+            "https://attack.mitre.org/software/S0304"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "12678a67-04c6-41a2-877d-57bc66059a16",
+        "malware_name": "Vasport",
+        "internal_number": null,
+        "family_description": "[Vasport](https://attack.mitre.org/software/S0207) is a trojan used by [Elderwood](https://attack.mitre.org/groups/G0066) to open a backdoor on compromised hosts. (Citation: Symantec Elderwood Sept 2012) (Citation: Symantec Vasport May 2012)",
+        "discover_time": null,
+        "aliases": [
+            "Vasport"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+            "https://www.symantec.com/security_response/writeup.jsp?docid=2012-051606-5938-99",
+            "https://attack.mitre.org/software/S0207"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "8101956f-8601-4473-8d58-ace06c151c81",
+        "malware_name": "BadPatch",
+        "internal_number": null,
+        "family_description": "[BadPatch](https://attack.mitre.org/software/S0337) is a Windows Trojan that was used in a Gaza Hackers-linked campaign.(Citation: Unit 42 BadPatch Oct 2017)",
+        "discover_time": null,
+        "aliases": [
+            "BadPatch"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0337",
+            "https://researchcenter.paloaltonetworks.com/2017/10/unit42-badpatch/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "19c79858-7481-4442-9388-618fe6f4ffc4",
+        "malware_name": "HARDRAIN",
+        "internal_number": null,
+        "family_description": "[HARDRAIN](https://attack.mitre.org/software/S0246) is a Trojan malware variant reportedly used by the North Korean government. (Citation: US-CERT HARDRAIN March 2018)",
+        "discover_time": null,
+        "aliases": [
+            "HARDRAIN"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0246",
+            "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-F.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "3347de32-5a99-41e6-a7ed-7efbe45fb778",
+        "malware_name": "SQLRat",
+        "internal_number": null,
+        "family_description": "[SQLRat](https://attack.mitre.org/software/S0390) is malware that executes SQL scripts to avoid leaving traditional host artifacts. [FIN7](https://attack.mitre.org/groups/G0046) has been observed using it.(Citation: Flashpoint FIN 7 March 2019)",
+        "discover_time": null,
+        "aliases": [
+            "SQLRat"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/",
+            "https://attack.mitre.org/software/S0390"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "07193661-ec4b-4219-be2e-3eb2caa34376",
+        "malware_name": "SEASHARPEE",
+        "internal_number": null,
+        "family_description": "[SEASHARPEE](https://attack.mitre.org/software/S0185) is a Web shell that has been used by [OilRig](https://attack.mitre.org/groups/G0049). (Citation: FireEye APT34 Webinar Dec 2017)",
+        "discover_time": null,
+        "aliases": [
+            "SEASHARPEE"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0185",
+            "https://www.brighttalk.com/webcast/10703/296317/apt34-new-targeted-attack-in-the-middle-east"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "c3e36037-b019-4b25-ac81-724c918c8105",
+        "malware_name": "RDAT",
+        "internal_number": null,
+        "family_description": "[RDAT](https://attack.mitre.org/software/S0495) is a backdoor used by the suspected Iranian threat group [OilRig](https://attack.mitre.org/groups/G0049). [RDAT](https://attack.mitre.org/software/S0495) was originally identified in 2017 and targeted companies in the telecommunications sector.(Citation: Unit42 RDAT July 2020)",
+        "discover_time": null,
+        "aliases": [
+            "RDAT",
+            "RDAT "
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://unit42.paloaltonetworks.com/oilrig-novel-c2-channel-steganography/",
+            "https://attack.mitre.org/software/S0495"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "7711e546-9b5e-4009-92a2-099abf214ec9",
+        "malware_name": "Mandrake",
+        "internal_number": null,
+        "family_description": "[Mandrake](https://attack.mitre.org/software/S0485) is a sophisticated Android espionage platform that has been active in the wild since at least 2016. [Mandrake](https://attack.mitre.org/software/S0485) is very actively maintained, with sophisticated features and attacks that are executed with surgical precision.\n\n[Mandrake](https://attack.mitre.org/software/S0485) has gone undetected for several years by providing legitimate, ad-free applications with social media and real reviews to back the apps. The malware is only activated when the operators issue a specific command.(Citation: Bitdefender Mandrake)",
+        "discover_time": null,
+        "aliases": [
+            "Mandrake",
+            "oxide",
+            "briar",
+            "ricinus",
+            "darkmatter"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0485",
+            "https://www.bitdefender.com/files/News/CaseStudies/study/329/Bitdefender-PR-Whitepaper-Mandrake-creat4464-en-EN-interactive.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "3925c439-37d2-4b57-ac07-2d4a35c36e16",
+        "malware_name": "Flagpro",
+        "internal_number": null,
+        "family_description": "[Flagpro](https://attack.mitre.org/software/S0696) is a Windows-based, first-stage downloader that has been used by [BlackTech](https://attack.mitre.org/groups/G0098) since at least October 2020. It has primarily been used against defense, media, and communications companies in Japan.(Citation: NTT Security Flagpro new December 2021) ",
+        "discover_time": null,
+        "aliases": [
+            "Flagpro",
+            "Flagpro "
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0696",
+            "https://insight-jp.nttsecurity.com/post/102hf3q/flagpro-the-new-malware-used-by-blacktech"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "ebb760ae-a80f-4ed5-9586-6afb867fb84f",
+        "malware_name": "Ebury",
+        "internal_number": null,
+        "family_description": "[Ebury](https://attack.mitre.org/software/S0377) is an SSH backdoor targeting Linux operating systems. Attackers require root-level access, which allows them to replace SSH binaries (ssh, sshd, ssh-add, etc) or modify a shared library used by OpenSSH (libkeyutils).(Citation: ESET Ebury Feb 2014)(Citation: BleepingComputer Ebury March 2017)(Citation: ESET Ebury Oct 2017)",
+        "discover_time": null,
+        "aliases": [
+            "Ebury"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury/",
+            "https://www.bleepingcomputer.com/news/security/russian-hacker-pleads-guilty-for-role-in-infamous-linux-ebury-malware/",
+            "https://attack.mitre.org/software/S0377",
+            "https://www.welivesecurity.com/2017/10/30/windigo-ebury-update-2/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "ca7da1fa-755e-498d-9adb-f4703b62df74",
+        "malware_name": "SYSCON",
+        "internal_number": null,
+        "family_description": "[SYSCON](https://attack.mitre.org/software/S0464) is a backdoor that has been in use since at least 2017 and has been associated with campaigns involving North Korean themes. [SYSCON](https://attack.mitre.org/software/S0464) has been delivered by the [CARROTBALL](https://attack.mitre.org/software/S0465) and [CARROTBAT](https://attack.mitre.org/software/S0462) droppers.(Citation: Unit 42 CARROTBAT November 2018)(Citation: Unit 42 CARROTBAT January 2020)",
+        "discover_time": null,
+        "aliases": [
+            "SYSCON"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0464",
+            "https://unit42.paloaltonetworks.com/unit42-the-fractured-block-campaign-carrotbat-malware-used-to-deliver-malware-targeting-southeast-asia/",
+            "https://unit42.paloaltonetworks.com/the-fractured-statue-campaign-u-s-government-targeted-in-spear-phishing-attacks/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "c5dde7c3-05ed-46fc-990c-5536088cf439",
+        "malware_name": "Ecipekac",
+        "internal_number": null,
+        "family_description": "[Ecipekac](https://attack.mitre.org/software/S0624) is a multi-layer loader that has been used by [menuPass](https://attack.mitre.org/groups/G0045) since at least 2019 including use as a loader for [P8RAT](https://attack.mitre.org/software/S0626), [SodaMaster](https://attack.mitre.org/software/S0627), and [FYAnti](https://attack.mitre.org/software/S0628).(Citation: Securelist APT10 March 2021)",
+        "discover_time": null,
+        "aliases": [
+            "Ecipekac",
+            "HEAVYHAND",
+            "SigLoader",
+            "DESLoader"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0624",
+            "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "b0dedf0d-08e7-4a4d-86de-bc8789566c68",
+        "malware_name": "Pallas",
+        "internal_number": null,
+        "family_description": "[Pallas](https://attack.mitre.org/software/S0399) is mobile surveillanceware that was custom-developed by [Dark Caracal](https://attack.mitre.org/groups/G0070).(Citation: Lookout Dark Caracal Jan 2018)",
+        "discover_time": null,
+        "aliases": [
+            "Pallas"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf",
+            "https://attack.mitre.org/software/S0399"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "b610220a-df81-4b24-9551-50d2bd1162f2",
+        "malware_name": "Bankshot",
+        "internal_number": null,
+        "family_description": "[Bankshot](https://attack.mitre.org/software/S0239) is a remote access tool (RAT) that was first reported by the Department of Homeland Security in December of 2017. In 2018, [Lazarus Group](https://attack.mitre.org/groups/G0032) used the [Bankshot](https://attack.mitre.org/software/S0239) implant in attacks against the Turkish financial sector. (Citation: McAfee Bankshot)",
+        "discover_time": null,
+        "aliases": [
+            "Bankshot",
+            "Trojan Manuscript"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0239",
+            "https://securingtomorrow.mcafee.com/mcafee-labs/hidden-cobra-targets-turkish-financial-sector-new-bankshot-implant/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "7d7ff761-12bf-40cc-bd91-62b7515a0c86",
+        "malware_name": "OldBoot",
+        "internal_number": null,
+        "family_description": "[OldBoot](https://attack.mitre.org/software/S0285) is an Android malware family. (Citation: HackerNews-OldBoot)",
+        "discover_time": null,
+        "aliases": null,
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0285",
+            "http://thehackernews.com/2014/01/first-widely-distributed-android.html"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "b21085c6-2e40-4dee-8bea-7ae00ef4b398",
+        "malware_name": "ProLock",
+        "internal_number": null,
+        "family_description": "[ProLock](https://attack.mitre.org/software/S0654) is a ransomware strain that has been used in Big Game Hunting (BGH) operations since at least 2020, often obtaining initial access with [QakBot](https://attack.mitre.org/software/S0650). [ProLock](https://attack.mitre.org/software/S0654) is the successor to PwndLocker ransomware which was found to contain a bug allowing decryption without ransom payment in 2019.(Citation: Group IB Ransomware September 2020)",
+        "discover_time": null,
+        "aliases": [
+            "ProLock"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0654",
+            "https://groupib.pathfactory.com/ransomware-reports/prolock_wp"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "c5e15c04-e7a7-4176-82ae-678b7beb4dd8",
+        "malware_name": "Gooligan",
+        "internal_number": null,
+        "family_description": "[Gooligan](https://attack.mitre.org/software/S0290) is a malware family that runs privilege escalation exploits on Android devices and then uses its escalated privileges to steal authentication tokens that can be used to access data from many Google applications. [Gooligan](https://attack.mitre.org/software/S0290) has been described as part of the Ghost Push Android malware family. (Citation: Gooligan Citation) (Citation: Ludwig-GhostPush) (Citation: Lookout-Gooligan)",
+        "discover_time": null,
+        "aliases": [
+            "Gooligan",
+            "Ghost Push"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0290",
+            "http://blog.checkpoint.com/2016/11/30/1-million-google-accounts-breached-gooligan/",
+            "https://plus.google.com/+AdrianLudwig/posts/GXzJ8vaAFsi",
+            "https://blog.lookout.com/blog/2016/12/01/ghost-push-gooligan/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "c6e985ac-3cfb-4f8b-b8a3-724bc5c0d166",
+        "malware_name": "Peppy",
+        "internal_number": null,
+        "family_description": "[Peppy](https://attack.mitre.org/software/S0643) is a Python-based remote access Trojan, active since at least 2012, with similarities to [Crimson](https://attack.mitre.org/software/S0115).(Citation: Proofpoint Operation Transparent Tribe March 2016)",
+        "discover_time": null,
+        "aliases": [
+            "Peppy"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0643",
+            "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "20f0dd6f-2fa9-467b-a386-3f6023589a75",
+        "malware_name": "T9000",
+        "internal_number": null,
+        "family_description": "[T9000](https://attack.mitre.org/software/S0098) is a backdoor that is a newer variant of the T5000 malware family, also known as Plat1. Its primary function is to gather information about the victim. It has been used in multiple targeted attacks against U.S.-based organizations. (Citation: FireEye admin@338 March 2014) (Citation: Palo Alto T9000 Feb 2016)",
+        "discover_time": null,
+        "aliases": [
+            "T9000"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0098",
+            "https://www.fireeye.com/blog/threat-research/2014/03/spear-phishing-the-news-cycle-apt-actors-leverage-interest-in-the-disappearance-of-malaysian-flight-mh-370.html",
+            "http://researchcenter.paloaltonetworks.com/2016/02/t9000-advanced-modular-backdoor-uses-complex-anti-analysis-techniques/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "c955e109-1fbf-4203-a6f9-d28fd9ecdd83",
+        "malware_name": "FakeSpy",
+        "internal_number": null,
+        "family_description": "[FakeSpy](https://attack.mitre.org/software/S0509) is Android spyware that has been operated by the Chinese threat actor behind the Roaming Mantis campaigns.(Citation: Cybereason FakeSpy)",
+        "discover_time": null,
+        "aliases": [
+            "FakeSpy"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.cybereason.com/blog/fakespy-masquerades-as-postal-service-apps-around-the-world",
+            "https://attack.mitre.org/software/S0509"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "7fb94ff0-0610-4bb2-93fa-f73d583418a7",
+        "malware_name": "Ixeshe",
+        "internal_number": null,
+        "family_description": "[Ixeshe](https://attack.mitre.org/software/S0015) is a malware family that has been used since at least 2009 against targets in East Asia. (Citation: Moran 2013)",
+        "discover_time": null,
+        "aliases": [
+            "Ixeshe"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0015",
+            "https://www.fireeye.com/blog/threat-research/2013/08/survival-of-the-fittest-new-york-times-attackers-evolve-quickly.html"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "05536d9f-2629-472a-917e-23040887db12",
+        "malware_name": "QakBot",
+        "internal_number": null,
+        "family_description": "[QakBot](https://attack.mitre.org/software/S0650) is a modular banking trojan that has been used primarily by financially-motivated actors since at least 2007. [QakBot](https://attack.mitre.org/software/S0650) is continuously maintained and developed and has evolved from an information stealer into a delivery agent for ransomware, most notably [ProLock](https://attack.mitre.org/software/S0654) and [Egregor](https://attack.mitre.org/software/S0554).(Citation: Trend Micro Qakbot December 2020)(Citation: Red Canary Qbot)(Citation: Kaspersky QakBot September 2021)(Citation: ATT QakBot April 2021)",
+        "discover_time": "2023-02-10",
+        "aliases": [
+            "QakBot",
+            "Pinkslipbot",
+            "QuackBot",
+            "QBot"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://success.trendmicro.com/solution/000283381",
+            "https://redcanary.com/threat-detection-report/threats/qbot/",
+            "https://cybersecurity.att.com/blogs/labs-research/the-rise-of-qakbot",
+            "https://securelist.com/qakbot-technical-analysis/103931/",
+            "https://attack.mitre.org/software/S0650"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "5fc8ecf8-b718-4007-a868-881b813c8d55",
+        "malware_name": "Exodus",
+        "internal_number": null,
+        "family_description": "[Exodus](https://attack.mitre.org/software/S0405) is Android spyware deployed in two distinct stages named Exodus One (dropper) and Exodus Two (payload).(Citation: SWB Exodus March 2019)",
+        "discover_time": null,
+        "aliases": [
+            "Exodus",
+            "Exodus One",
+            "Exodus Two"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0405",
+            "https://securitywithoutborders.org/blog/2019/03/29/exodus.html"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "e0c56d47-edbf-4feb-b1ea-ca72041aaadd",
+        "malware_name": "RegDuke",
+        "internal_number": null,
+        "family_description": "[RegDuke](https://attack.mitre.org/software/S0511) is a first stage implant written in .NET and used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2017. [RegDuke](https://attack.mitre.org/software/S0511) has been used to control a compromised machine when control of other implants on the machine was lost.(Citation: ESET Dukes October 2019)",
+        "discover_time": null,
+        "aliases": [
+            "RegDuke"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.welivesecurity.com/wp-content/uploads/2019/10/ESET_Operation_Ghost_Dukes.pdf",
+            "https://attack.mitre.org/software/S0511"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "b875edd3-9d10-4499-a651-3515ad34a3ac",
+        "malware_name": "Winnti for Linux",
+        "internal_number": null,
+        "family_description": "[Winnti for Linux](https://attack.mitre.org/software/S0430) is a trojan, seen since at least 2015, designed specifically for targeting Linux systems. Reporting indicates the winnti malware family is shared across a number of actors including [Winnti Group](https://attack.mitre.org/groups/G0044). The Windows variant is tracked separately under [Winnti for Windows](https://attack.mitre.org/software/S0141).(Citation: Chronicle Winnti for Linux May 2019)",
+        "discover_time": null,
+        "aliases": [
+            "Winnti for Linux"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://medium.com/chronicle-blog/winnti-more-than-just-windows-and-gates-e4f03436031a",
+            "https://attack.mitre.org/software/S0430"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "b8c06927-6a33-4020-af22-5728984338e3",
+        "malware_name": "3PARA RAT",
+        "internal_number": null,
+        "family_description": "原文:[3PARA RAT](https://attack.mitre.org/software/S0066) is a remote access tool (RAT) programmed in C++ that has been used by [Putter Panda](https://attack.mitre.org/groups/G0024). (Citation: CrowdStrike Putter Panda)\n\n 翻译结果：[3PARA RAT](https://attack.mitre.org/software/S0066)是一个用c++编写的远程访问工具(RAT)，已被[Putter Panda](https://attack.mitre.org/groups/G0024)使用。(来源:CrowdStrike Putter Panda)",
+        "discover_time": null,
+        "aliases": [
+            "3PARA RAT"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0066",
+            "http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "fc0570ab-62f9-4303-9f36-7fb4911e27f0",
+        "malware_name": "WindTail",
+        "internal_number": null,
+        "family_description": "[WindTail](https://attack.mitre.org/software/S0466) is a macOS surveillance implant used by [Windshift](https://attack.mitre.org/groups/G0112). [WindTail](https://attack.mitre.org/software/S0466) shares code similarities with Hack Back aka KitM OSX.(Citation: SANS Windshift August 2018)(Citation: objective-see windtail1 dec 2018)(Citation: objective-see windtail2 jan 2019)",
+        "discover_time": null,
+        "aliases": [
+            "WindTail"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://objective-see.com/blog/blog_0x3D.html",
+            "https://attack.mitre.org/software/S0466",
+            "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1554718868.pdf",
+            "https://objective-see.com/blog/blog_0x3B.html"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "9df7dd6e-ce3f-4474-8d4a-1707b21ba96f",
+        "malware_name": "Meteor",
+        "internal_number": null,
+        "family_description": "[Meteor](https://attack.mitre.org/software/S0688) is a wiper that was used against Iranian government organizations, including Iranian Railways, the Ministry of Roads, and Urban Development systems, in July 2021. [Meteor](https://attack.mitre.org/software/S0688) is likely a newer version of similar wipers called Stardust and Comet that were reportedly used by a group called \"Indra\" since at least 2019 against private companies in Syria.(Citation: Check Point Meteor Aug 2021)",
+        "discover_time": null,
+        "aliases": [
+            "Meteor"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://research.checkpoint.com/2021/indra-hackers-behind-recent-attacks-on-iran/",
+            "https://attack.mitre.org/software/S0688"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "60e8d67d-46c8-43b6-bf32-647f8b9b4644",
+        "malware_name": "HiddenWasp",
+        "internal_number": null,
+        "family_description": "[HiddenWasp](https://attack.mitre.org/software/S0394) is a Linux-based Trojan used to target systems for remote control. It comes in the form of a statically linked ELF binary with stdlibc++.(Citation: Intezer HiddenWasp Map 2019)",
+        "discover_time": null,
+        "aliases": [
+            "HiddenWasp"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.intezer.com/blog-hiddenwasp-malware-targeting-linux-systems/",
+            "https://attack.mitre.org/software/S0394"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "ab8d203d-1e27-4e65-add5-2218ba70916d",
+        "malware_name": "OLDBAIT",
+        "internal_number": null,
+        "family_description": "[OLDBAIT](https://attack.mitre.org/software/S0138) is a credential harvester used by [APT28](https://attack.mitre.org/groups/G0007). (Citation: FireEye APT28) (Citation: FireEye APT28 January 2017)",
+        "discover_time": null,
+        "aliases": [
+            "OLDBAIT",
+            "Sasfis"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf",
+            "https://www2.fireeye.com/rs/848-DID-242/images/APT28-Center-of-Storm-2017.pdf",
+            "https://attack.mitre.org/software/S0138"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "3a2ffff1-613d-4935-acc9-7a3aea7ac67a",
+        "malware_name": "NanHaiShu",
+        "internal_number": null,
+        "family_description": "[NanHaiShu](https://attack.mitre.org/software/S0228) is a remote access tool and JScript backdoor used by [Leviathan](https://attack.mitre.org/groups/G0065). [NanHaiShu](https://attack.mitre.org/software/S0228) has been used to target government and private-sector organizations that have relations to the South China Sea dispute. (Citation: Proofpoint Leviathan Oct 2017) (Citation: fsecure NanHaiShu July 2016)",
+        "discover_time": null,
+        "aliases": [
+            "NanHaiShu"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0228",
+            "https://www.f-secure.com/documents/996508/1030745/nanhaishu_whitepaper.pdf",
+            "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "b841ce53-f58c-4be0-b4af-e0af0cb9e697",
+        "malware_name": "POSHSPY",
+        "internal_number": null,
+        "family_description": "[POSHSPY](https://attack.mitre.org/software/S0150) is a backdoor that has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2015. It appears to be used as a secondary backdoor used if the actors lost access to their primary backdoors. (Citation: FireEye POSHSPY April 2017)",
+        "discover_time": null,
+        "aliases": [
+            "POSHSPY"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0150",
+            "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "c574f6da-432b-4551-ad7c-257a562d8e5c",
+        "malware_name": "Javali",
+        "internal_number": null,
+        "family_description": "[Javali](https://attack.mitre.org/software/S0528) is a banking trojan that has targeted Portuguese and Spanish-speaking countries since 2017, primarily focusing on customers of financial institutions in Brazil and Mexico.(Citation: Securelist Brazilian Banking Malware July 2020)",
+        "discover_time": null,
+        "aliases": [
+            "Javali"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0528",
+            "https://securelist.com/the-tetrade-brazilian-banking-malware/97779/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "ea50084c-21b9-4bc7-8117-521cf79b7152",
+        "malware_name": "DDKONG",
+        "internal_number": null,
+        "family_description": "[DDKONG](https://attack.mitre.org/software/S0255) is a malware sample that was part of a campaign by [Rancor](https://attack.mitre.org/groups/G0075). [DDKONG](https://attack.mitre.org/software/S0255) was first seen used in February 2017. (Citation: Rancor Unit42 June 2018)",
+        "discover_time": null,
+        "aliases": null,
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0255",
+            "https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "8f0e7498-52d4-4801-ba58-4507265b27a4",
+        "malware_name": "RTM",
+        "internal_number": null,
+        "family_description": "[RTM](https://attack.mitre.org/software/S0148) is custom malware written in Delphi. It is used by the group of the same name ([RTM](https://attack.mitre.org/groups/G0048)). Newer versions of the malware have been reported publicly as Redaman.(Citation: ESET RTM Feb 2017)(Citation: Unit42 Redaman January 2019)",
+        "discover_time": null,
+        "aliases": [
+            "RTM",
+            "Redaman"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://unit42.paloaltonetworks.com/russian-language-malspam-pushing-redaman-banking-malware/",
+            "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
+            "https://attack.mitre.org/software/S0148"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "f231d3c2-f1d5-4d98-9fa2-97b2d124c82c",
+        "malware_name": "Rising Sun",
+        "internal_number": null,
+        "family_description": "[Rising Sun](https://attack.mitre.org/software/S0448) is a modular backdoor malware used extensively in Operation [Sharpshooter](https://attack.mitre.org/groups/G0104). The malware has been observed targeting nuclear, defense, energy, and financial services companies across the world. [Rising Sun](https://attack.mitre.org/software/S0448) uses source code from [Lazarus Group](https://attack.mitre.org/groups/G0032)'s Trojan Duuzer.(Citation: McAfee Sharpshooter December 2018)",
+        "discover_time": null,
+        "aliases": [
+            "Rising Sun"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0448",
+            "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-sharpshooter.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "db048eb5-8ad4-4709-a880-dfdadffb5112",
+        "malware_name": "Pony",
+        "internal_number": null,
+        "family_description": "[Pony](https://attack.mitre.org/software/S0453) is a credential stealing malware, though has also been used among adversaries for its downloader capabilities. The source code for Pony Loader 1.0 and 2.0 were leaked online, leading to their use by various threat actors.(Citation: Malwarebytes Pony April 2016)",
+        "discover_time": null,
+        "aliases": [
+            "Pony"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0453",
+            "https://blog.malwarebytes.com/threat-analysis/2015/11/no-money-but-pony-from-a-mail-to-a-trojan-horse/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "2d5b7ffa-e835-4bb1-a8a3-1a89633997ef",
+        "malware_name": "Rifdoor",
+        "internal_number": null,
+        "family_description": "[Rifdoor](https://attack.mitre.org/software/S0433) is a remote access trojan (RAT) that shares numerous code similarities with [HotCroissant](https://attack.mitre.org/software/S0431).(Citation: Carbon Black HotCroissant April 2020)",
+        "discover_time": null,
+        "aliases": [
+            "Rifdoor"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0433",
+            "https://www.carbonblack.com/2020/04/16/vmware-carbon-black-tau-threat-analysis-the-evolution-of-lazarus/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "9e0116b2-a294-4cf9-8b16-3ea3745f25a5",
+        "malware_name": "CarbonSteal",
+        "internal_number": null,
+        "family_description": "[CarbonSteal](https://attack.mitre.org/software/S0529) is one of a family of four surveillanceware tools that share a common C2 infrastructure. [CarbonSteal](https://attack.mitre.org/software/S0529) primarily deals with audio surveillance. (Citation: Lookout Uyghur Campaign)",
+        "discover_time": null,
+        "aliases": [
+            "CarbonSteal"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0529",
+            "https://www.lookout.com/documents/threat-reports/us/lookout-uyghur-malware-tr-us.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "2f712968-ac9c-4542-85bf-ac196d780d4f",
+        "malware_name": "GoldMax",
+        "internal_number": null,
+        "family_description": "[GoldMax](https://attack.mitre.org/software/S0588) is a second-stage C2 backdoor written in Go with Windows and Linux variants that are nearly identical in functionality. [GoldMax](https://attack.mitre.org/software/S0588) was discovered in early 2021 during the investigation into the SolarWinds intrusion, and has likely been used by [APT29](https://attack.mitre.org/groups/G0016) since at least mid-2019. [GoldMax](https://attack.mitre.org/software/S0588) uses multiple defense evasion techniques, including avoiding virtualization execution and masking malicious traffic.(Citation: MSTIC NOBELIUM Mar 2021)(Citation: FireEye SUNSHUTTLE Mar 2021)(Citation: CrowdStrike StellarParticle January 2022)",
+        "discover_time": null,
+        "aliases": [
+            "GoldMax",
+            "SUNSHUTTLE"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/",
+            "https://attack.mitre.org/software/S0588",
+            "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware/",
+            "https://www.fireeye.com/blog/threat-research/2021/03/sunshuttle-second-stage-backdoor-targeting-us-based-entity.html"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "0dce63dd-cbc7-4a07-ad5a-be290bae9deb",
+        "malware_name": "MarkiRAT",
+        "internal_number": null,
+        "family_description": "[MarkiRAT](https://attack.mitre.org/software/S0652) is a remote access Trojan (RAT) compiled with Visual Studio that has been used by [Ferocious Kitten](https://attack.mitre.org/groups/G0137) since at least 2015.(Citation: Kaspersky Ferocious Kitten Jun 2021)",
+        "discover_time": null,
+        "aliases": [
+            "MarkiRAT"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0652",
+            "https://securelist.com/ferocious-kitten-6-years-of-covert-surveillance-in-iran/102806/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "3a563d4b-dc76-42b3-a5f7-b8a95aedb816",
+        "malware_name": "iKitten",
+        "internal_number": null,
+        "family_description": "[iKitten](https://attack.mitre.org/software/S0278) is a macOS exfiltration agent  (Citation: objsee mac malware 2017).",
+        "discover_time": null,
+        "aliases": [
+            "iKitten",
+            "OSX/MacDownloader"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://objective-see.com/blog/blog_0x25.html",
+            "https://attack.mitre.org/software/S0278"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "cd14c735-1cb4-4b68-b0b1-f499677e66ec",
+        "malware_name": "WellMess",
+        "internal_number": null,
+        "family_description": "[WellMess](https://attack.mitre.org/software/S0514) is lightweight malware family with variants written in .NET and Golang that has been in use since at least 2018 by [APT29](https://attack.mitre.org/groups/G0016).(Citation: CISA WellMess July 2020)(Citation: PWC WellMess July 2020)(Citation: NCSC APT29 July 2020)",
+        "discover_time": null,
+        "aliases": [
+            "WellMess"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development-V1-1.pdf",
+            "https://attack.mitre.org/software/S0514",
+            "https://www.pwc.co.uk/issues/cyber-security-services/insights/cleaning-up-after-wellmess.html",
+            "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-198b"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "f0e70193-99d2-40e2-99a5-a303545f60e2",
+        "malware_name": "EvilBunny",
+        "internal_number": null,
+        "family_description": "[EvilBunny](https://attack.mitre.org/software/S0396) is a C++ malware sample observed since 2011 that was designed to be a execution platform for Lua scripts.(Citation: Cyphort EvilBunny Dec 2014)",
+        "discover_time": null,
+        "aliases": [
+            "EvilBunny"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0396",
+            "https://web.archive.org/web/20150311013500/http://www.cyphort.com/evilbunny-malware-instrumented-lua/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "feddc185-0d8f-4d40-afaa-a0a48307041b",
+        "malware_name": "Reaver",
+        "internal_number": null,
+        "family_description": "[Reaver](https://attack.mitre.org/software/S0172) is a malware family that has been in the wild since at least late 2016. Reporting indicates victims have primarily been associated with the \"Five Poisons,\" which are movements the Chinese government considers dangerous. The type of malware is rare due to its final payload being in the form of [Control Panel](https://attack.mitre.org/techniques/T1218/002) items.(Citation: Palo Alto Reaver Nov 2017)",
+        "discover_time": null,
+        "aliases": [
+            "Reaver"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://researchcenter.paloaltonetworks.com/2017/11/unit42-new-malware-with-ties-to-sunorcal-discovered/",
+            "https://attack.mitre.org/software/S0172"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "58634c22-45c8-4142-b75d-6439a20f0258",
+        "malware_name": "Duqu",
+        "internal_number": null,
+        "family_description": "[Duqu](https://attack.mitre.org/software/S0038) is a malware platform that uses a modular approach to extend functionality after deployment within a target network. (Citation: Symantec W32.Duqu)",
+        "discover_time": null,
+        "aliases": [
+            "Duqu"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf",
+            "https://attack.mitre.org/software/S0038"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "c99eb43f-5c50-4569-88db-09fffba76809",
+        "malware_name": "Lizar",
+        "internal_number": null,
+        "family_description": "[Lizar](https://attack.mitre.org/software/S0681) is a modular remote access tool written using the .NET Framework that shares structural similarities to [Carbanak](https://attack.mitre.org/software/S0030). It has likely been used by [FIN7](https://attack.mitre.org/groups/G0046) since at least February 2021.(Citation: BiZone Lizar May 2021)(Citation: Threatpost Lizar May 2021)(Citation: Gemini FIN7 Oct 2021)",
+        "discover_time": null,
+        "aliases": [
+            "Lizar",
+            "Tirion"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://threatpost.com/fin7-backdoor-ethical-hacking-tool/166194/",
+            "https://bi-zone.medium.com/from-pentest-to-apt-attack-cybercriminal-group-fin7-disguises-its-malware-as-an-ethical-hackers-c23c9a75e319",
+            "https://attack.mitre.org/software/S0681",
+            "https://geminiadvisory.io/fin7-ransomware-bastion-secure/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "c773bb24-c270-423f-82ae-bc9425a22e9e",
+        "malware_name": "Starloader",
+        "internal_number": null,
+        "family_description": "[Starloader](https://attack.mitre.org/software/S0188) is a loader component that has been observed loading [Felismus](https://attack.mitre.org/software/S0171) and associated tools. (Citation: Symantec Sowbug Nov 2017)",
+        "discover_time": null,
+        "aliases": [
+            "Starloader"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0188",
+            "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "df72c944-dd9f-4c0a-acab-91e068e40f90",
+        "malware_name": "FALLCHILL",
+        "internal_number": null,
+        "family_description": "[FALLCHILL](https://attack.mitre.org/software/S0181) is a RAT that has been used by [Lazarus Group](https://attack.mitre.org/groups/G0032) since at least 2016 to target the aerospace, telecommunications, and finance industries. It is usually dropped by other [Lazarus Group](https://attack.mitre.org/groups/G0032) malware or delivered when a victim unknowingly visits a compromised website. (Citation: US-CERT FALLCHILL Nov 2017)",
+        "discover_time": null,
+        "aliases": [
+            "FALLCHILL"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0181",
+            "https://www.us-cert.gov/ncas/alerts/TA17-318A"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "508ef08c-c9e9-4288-80f4-e6785b7916b7",
+        "malware_name": "BOOTRASH",
+        "internal_number": null,
+        "family_description": "[BOOTRASH](https://attack.mitre.org/software/S0114) is a [Bootkit](https://attack.mitre.org/techniques/T1542/003) that targets Windows operating systems. It has been used by threat actors that target the financial sector.(Citation: Mandiant M Trends 2016)(Citation: FireEye Bootkits)(Citation: FireEye BOOTRASH SANS)",
+        "discover_time": null,
+        "aliases": [
+            "BOOTRASH"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/rpt-mtrends-2016.pdf",
+            "https://attack.mitre.org/software/S0114",
+            "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1498163766.pdf",
+            "https://www.fireeye.com/blog/threat-research/2015/12/fin1-targets-boot-record.html"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "c199ccb9-516e-41f9-a3ec-4d6cf5e61b66",
+        "malware_name": "Anubis",
+        "internal_number": null,
+        "family_description": "[Anubis](https://attack.mitre.org/software/S0422) is Android malware that was originally used for cyber espionage, and has been retooled as a banking trojan.(Citation: Cofense Anubis)",
+        "discover_time": null,
+        "aliases": [
+            "Anubis"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://cofense.com/infostealer-keylogger-ransomware-one-anubis-targets-250-android-applications/",
+            "https://attack.mitre.org/software/S0422"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "33245e52-50cd-414b-80e3-3c2f3af94b84",
+        "malware_name": "ShadowPad",
+        "internal_number": null,
+        "family_description": "[ShadowPad](https://attack.mitre.org/software/S0596) is a modular backdoor that was first identified in a supply chain compromise of the NetSarang software in mid-July 2017. The malware was originally thought to be exclusively used by [APT41](https://attack.mitre.org/groups/G0096), but has since been observed to be used by various Chinese threat activity groups. (Citation: Recorded Future RedEcho Feb 2021)(Citation: Securelist ShadowPad Aug 2017)(Citation: Kaspersky ShadowPad Aug 2017) ",
+        "discover_time": null,
+        "aliases": [
+            "ShadowPad",
+            "POISONPLUG.SHADOW"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://content.fireeye.com/apt-41/rpt-apt41",
+            "https://go.recordedfuture.com/hubfs/reports/cta-2021-0228.pdf",
+            "https://attack.mitre.org/software/S0596",
+            "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/08/07172148/ShadowPad_technical_description_PDF.pdf",
+            "https://securelist.com/shadowpad-in-corporate-networks/81432/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "73d32543-2cbc-4406-9a93-aee3df481e33",
+        "malware_name": "FoggyWeb",
+        "internal_number": null,
+        "family_description": "[FoggyWeb](https://attack.mitre.org/software/S0661) is a passive and highly-targeted backdoor capable of remotely exfiltrating sensitive information from a compromised Active Directory Federated Services (AD FS) server. It has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least early April 2021.(Citation: MSTIC FoggyWeb September 2021)",
+        "discover_time": null,
+        "aliases": [
+            "FoggyWeb"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.microsoft.com/security/blog/2021/09/27/foggyweb-targeted-nobelium-malware-leads-to-persistent-backdoor/",
+            "https://attack.mitre.org/software/S0661"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "37a46f51-f9e7-4bd3-8acd-e3127c1a00a0",
+        "malware_name": "FELIXROOT",
+        "internal_number": null,
+        "family_description": "[FELIXROOT](https://attack.mitre.org/software/S0267) is a backdoor that has been used to target Ukrainian victims. (Citation: FireEye FELIXROOT July 2018)",
+        "discover_time": null,
+        "aliases": [
+            "FELIXROOT",
+            "GreyEnergy mini"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf",
+            "https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html",
+            "https://attack.mitre.org/software/S0267"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "c37c468b-ac2d-4f1d-b4ab-524832253b3e",
+        "malware_name": "Clop",
+        "internal_number": null,
+        "family_description": "[Clop](https://attack.mitre.org/software/S0611) is a ransomware family that was first observed in February 2019 and has been used against retail, transportation and logistics, education, manufacturing, engineering, automotive, energy, financial, aerospace, telecommunications, professional and legal services, healthcare, and high tech industries. [Clop](https://attack.mitre.org/software/S0611) is a variant of the CryptoMix ransomware.(Citation: Mcafee Clop Aug 2019)(Citation: Cybereason Clop Dec 2020)(Citation: Unit42 Clop April 2021) ",
+        "discover_time": null,
+        "aliases": [
+            "Clop"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/clop-ransomware/",
+            "https://www.cybereason.com/blog/cybereason-vs.-clop-ransomware",
+            "https://attack.mitre.org/software/S0611",
+            "https://unit42.paloaltonetworks.com/clop-ransomware/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "a2faf99d-0dc9-4995-88f7-08f77df9553d",
+        "malware_name": "X-Agent for Android",
+        "internal_number": null,
+        "family_description": "[X-Agent for Android](https://attack.mitre.org/software/S0314) is Android malware that was placed in a repackaged version of a Ukrainian artillery targeting application. The malware reportedly retrieved general location data on where the victim device was used, and therefore could likely indicate the potential location of Ukrainian artillery. (Citation: CrowdStrike-Android) Is it tracked separately from the [CHOPSTICK](https://attack.mitre.org/software/S0023).",
+        "discover_time": null,
+        "aliases": null,
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.crowdstrike.com/wp-content/brochures/FancyBearTracksUkrainianArtillery.pdf",
+            "https://attack.mitre.org/software/S0314"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "edb7e3b3-f76d-4d27-b98e-1807d77170cd",
+        "malware_name": "SodaMaster",
+        "internal_number": null,
+        "family_description": "[SodaMaster](https://attack.mitre.org/software/S0627) is a fileless malware used by [menuPass](https://attack.mitre.org/groups/G0045) to download and execute payloads since at least 2020.(Citation: Securelist APT10 March 2021)",
+        "discover_time": null,
+        "aliases": [
+            "SodaMaster",
+            "DARKTOWN",
+            "dfls",
+            "DelfsCake"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0627",
+            "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "aea03ae0-534e-4bd3-84e0-397576952929",
+        "malware_name": "TrickBot",
+        "internal_number": null,
+        "family_description": "[TrickBot](https://attack.mitre.org/software/S0266) is a Trojan spyware program written in C++ that first emerged in September 2016 as a possible successor to [Dyre](https://attack.mitre.org/software/S0024). [TrickBot](https://attack.mitre.org/software/S0266) was developed and initially used by [Wizard Spider](https://attack.mitre.org/groups/G0102) for targeting banking sites in North America, Australia, and throughout Europe; it has since been used against all sectors worldwide as part of \"big game hunting\" ransomware campaigns.(Citation: S2 Grupo TrickBot June 2017)(Citation: Fidelis TrickBot Oct 2016)(Citation: IBM TrickBot Nov 2016)(Citation: CrowdStrike Wizard Spider October 2020)",
+        "discover_time": "2022-09-27",
+        "aliases": [
+            "TrickBot",
+            "Totbrick",
+            "TSPY_TRICKLOAD"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/",
+            "https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Trojan:Win32/Totbrick",
+            "https://attack.mitre.org/software/S0266",
+            "https://securityintelligence.com/tricks-of-the-trade-a-deeper-look-into-trickbots-machinations/",
+            "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/tspy_trickload.n",
+            "https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf",
+            "https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-adds-remote-application-credential-grabbing-capabilities-to-its-repertoire/",
+            "https://www.fidelissecurity.com/threatgeek/2016/10/trickbot-we-missed-you-dyre"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "cb0bfcc2-e0d3-460c-a7c7-f85c11c10032",
+        "malware_name": "HELLOKITTY",
+        "internal_number": null,
+        "family_description": "[HELLOKITTY](https://attack.mitre.org/software/S0617) is a ransomware written in C++  that shares similar code structure and functionality with [DEATHRANSOM](https://attack.mitre.org/software/S0616) and [FIVEHANDS](https://attack.mitre.org/software/S0618). [HELLOKITTY](https://attack.mitre.org/software/S0617) has been used since at least 2020, targets have included a Polish video game developer and a Brazilian electric power company.(Citation: FireEye FiveHands April 2021)",
+        "discover_time": null,
+        "aliases": [
+            "HELLOKITTY"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.fireeye.com/blog/threat-research/2021/04/unc2447-sombrat-and-fivehands-ransomware-sophisticated-financial-threat.html",
+            "https://attack.mitre.org/software/S0617"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "f3a37c50-cac8-479a-9a63-29a641571368",
+        "malware_name": "RogueRobin",
+        "internal_number": null,
+        "family_description": "[RogueRobin](https://attack.mitre.org/software/S0270) is a payload used by [DarkHydrus](https://attack.mitre.org/groups/G0079) that has been developed in PowerShell and C#. (Citation: Unit 42 DarkHydrus July 2018)(Citation: Unit42 DarkHydrus Jan 2019)",
+        "discover_time": null,
+        "aliases": [
+            "RogueRobin"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+            "https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications/",
+            "https://attack.mitre.org/software/S0270"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "f15d8749-0441-45ff-806d-7d7c2e799020",
+        "malware_name": "RawPOS",
+        "internal_number": null,
+        "family_description": "[RawPOS](https://attack.mitre.org/software/S0169) is a point-of-sale (POS) malware family that searches for cardholder data on victims. It has been in use since at least 2008. (Citation: Kroll RawPOS Jan 2017) (Citation: TrendMicro RawPOS April 2015) (Citation: Visa RawPOS March 2015) FireEye divides RawPOS into three components: FIENDCRY, DUEBREW, and DRIFTWOOD. (Citation: Mandiant FIN5 GrrCON Oct 2016) (Citation: DarkReading FireEye FIN5 Oct 2015)",
+        "discover_time": null,
+        "aliases": [
+            "RawPOS",
+            "FIENDCRY",
+            "DUEBREW",
+            "DRIFTWOOD"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://github.com/DiabloHorn/mempdump",
+            "https://www.darkreading.com/analytics/prolific-cybercrime-gang-favors-legit-login-credentials/d/d-id/1322645?",
+            "https://attack.mitre.org/software/S0169",
+            "http://sjc1-te-ftp.trendmicro.com/images/tex/pdf/RawPOS%20Technical%20Brief.pdf",
+            "https://www.kroll.com/en/insights/publications/malware-analysis-report-rawpos-malware",
+            "https://www.youtube.com/watch?v=fevGZs0EQu8",
+            "https://usa.visa.com/dam/VCOM/download/merchants/alert-rawpos.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "0844cff3-55fe-442b-96cb-4690839d1f13",
+        "malware_name": "RedLeaves",
+        "internal_number": null,
+        "family_description": "[RedLeaves](https://attack.mitre.org/software/S0153) is a malware family used by [menuPass](https://attack.mitre.org/groups/G0045). The code overlaps with [PlugX](https://attack.mitre.org/software/S0013) and may be based upon the open source tool Trochilus. (Citation: PWC Cloud Hopper Technical Annex April 2017) (Citation: FireEye APT10 April 2017)",
+        "discover_time": null,
+        "aliases": [
+            "RedLeaves",
+            "BUGJUICE"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
+            "https://twitter.com/ItsReallyNick/status/850105140589633536",
+            "https://attack.mitre.org/software/S0153",
+            "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "70c95ba1-3f03-434f-bcb0-24700f185b2f",
+        "malware_name": "EvilGrab",
+        "internal_number": null,
+        "family_description": "[EvilGrab](https://attack.mitre.org/software/S0152) is a malware family with common reconnaissance capabilities. It has been deployed by [menuPass](https://attack.mitre.org/groups/G0045) via malicious Microsoft Office documents as part of spearphishing campaigns. (Citation: PWC Cloud Hopper Technical Annex April 2017)",
+        "discover_time": null,
+        "aliases": [
+            "EvilGrab"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
+            "https://attack.mitre.org/software/S0152"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "4055a9f4-364f-4f0a-9baf-b1efd08fcb30",
+        "malware_name": "Komplex",
+        "internal_number": null,
+        "family_description": "[Komplex](https://attack.mitre.org/software/S0162) is a backdoor that has been used by [APT28](https://attack.mitre.org/groups/G0007) on OS X and appears to be developed in a similar manner to [XAgentOSX](https://attack.mitre.org/software/S0161) (Citation: XAgentOSX 2017) (Citation: Sofacy Komplex Trojan).",
+        "discover_time": null,
+        "aliases": [
+            "Komplex"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0162",
+            "https://researchcenter.paloaltonetworks.com/2016/09/unit42-sofacys-komplex-os-x-trojan/",
+            "https://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "57ba35b4-ac72-4781-9899-5ced604feeb9",
+        "malware_name": "FYAnti",
+        "internal_number": null,
+        "family_description": "[FYAnti](https://attack.mitre.org/software/S0628) is a loader that has been used by [menuPass](https://attack.mitre.org/groups/G0045) since at least 2020, including to deploy [QuasarRAT](https://attack.mitre.org/software/S0262).(Citation: Securelist APT10 March 2021)",
+        "discover_time": null,
+        "aliases": [
+            "FYAnti",
+            "DILLJUICE stage2"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0628",
+            "https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "7fac3a6b-e61d-4032-be1e-4a97c2fe090e",
+        "malware_name": "DustySky",
+        "internal_number": null,
+        "family_description": "[DustySky](https://attack.mitre.org/software/S0062) is multi-stage malware written in .NET that has been used by [Molerats](https://attack.mitre.org/groups/G0021) since May 2015. (Citation: DustySky) (Citation: DustySky2)(Citation: Kaspersky MoleRATs April 2019)",
+        "discover_time": null,
+        "aliases": [
+            "DustySky",
+            "NeD Worm"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "http://www.clearskysec.com/wp-content/uploads/2016/06/Operation-DustySky2_-6.2016_TLP_White.pdf",
+            "https://www.clearskysec.com/wp-content/uploads/2016/01/Operation%20DustySky_TLP_WHITE.pdf",
+            "https://attack.mitre.org/software/S0062",
+            "https://securelist.com/gaza-cybergang-group1-operation-sneakypastes/90068/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "66f7645d-4c4a-4e71-8f99-d4ebad8de2c5",
+        "malware_name": "DOGCALL",
+        "internal_number": null,
+        "family_description": "[DOGCALL](https://attack.mitre.org/software/S0213) is a backdoor used by [APT37](https://attack.mitre.org/groups/G0067) that has been used to target South Korean government and military organizations in 2017. It is typically dropped using a Hangul Word Processor (HWP) exploit. (Citation: FireEye APT37 Feb 2018)",
+        "discover_time": null,
+        "aliases": [
+            "DOGCALL"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0213",
+            "https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "633559c1-b5c5-47bd-b3f4-ea3a3330f5d7",
+        "malware_name": "CrossRAT",
+        "internal_number": null,
+        "family_description": "[CrossRAT](https://attack.mitre.org/software/S0235) is a cross platform RAT.",
+        "discover_time": null,
+        "aliases": [
+            "CrossRAT"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf",
+            "https://attack.mitre.org/software/S0235"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "745b7c5d-df49-439e-adc1-6a49d6e65358",
+        "malware_name": "Flame",
+        "internal_number": null,
+        "family_description": "Flame is a sophisticated toolkit that has been used to collect information since at least 2010, largely targeting Middle East countries. (Citation: Kaspersky Flame)",
+        "discover_time": null,
+        "aliases": [
+            "Flame",
+            "Flamer",
+            "sKyWIper"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0143",
+            "https://securelist.com/the-flame-questions-and-answers-51/34344/",
+            "https://www.symantec.com/connect/blogs/flamer-recipe-bluetoothache",
+            "https://www.crysys.hu/publications/files/skywiper.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "5067b469-5523-4844-8b4b-2dc99a6e83de",
+        "malware_name": "Hacking Team UEFI Rootkit",
+        "internal_number": null,
+        "family_description": "[Hacking Team UEFI Rootkit](https://attack.mitre.org/software/S0047) is a rootkit developed by the company Hacking Team as a method of persistence for remote access software. (Citation: TrendMicro Hacking Team UEFI)",
+        "discover_time": null,
+        "aliases": [
+            "Hacking Team UEFI Rootkit"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0047",
+            "http://blog.trendmicro.com/trendlabs-security-intelligence/hacking-team-uses-uefi-bios-rootkit-to-keep-rcs-9-agent-in-target-systems/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "4b6e5719-4f0e-4bcb-9475-b3d56a783cd5",
+        "malware_name": "Exaramel for Linux",
+        "internal_number": null,
+        "family_description": "[Exaramel for Linux](https://attack.mitre.org/software/S0401) is a backdoor written in the Go Programming Language and compiled as a 64-bit ELF binary. The Windows version is tracked separately under [Exaramel for Windows](https://attack.mitre.org/software/S0343).(Citation: ESET TeleBots Oct 2018)",
+        "discover_time": null,
+        "aliases": [
+            "Exaramel for Linux"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.welivesecurity.com/2018/10/11/new-telebots-backdoor-linking-industroyer-notpetya/",
+            "https://attack.mitre.org/software/S0401"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "744a5b7d-b030-4883-ba77-bc199d7c03b2",
+        "malware_name": "AppleSeed",
+        "internal_number": null,
+        "family_description": "[AppleSeed](https://attack.mitre.org/software/S0622) is a backdoor that has been used by [Kimsuky](https://attack.mitre.org/groups/G0094) to target South Korean government, academic, and commercial  targets since at least 2021.(Citation: Malwarebytes Kimsuky June 2021)",
+        "discover_time": null,
+        "aliases": [
+            "AppleSeed"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/",
+            "https://attack.mitre.org/software/S0622"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "83c401ce-db23-4da9-80fe-ca84409ab4bc",
+        "malware_name": "BlackEnergy",
+        "internal_number": null,
+        "family_description": "[BlackEnergy](https://attack.mitre.org/software/S0089) is a malware toolkit that has been used by both criminal and APT actors. It dates back to at least 2007 and was originally designed to create botnets for use in conducting Distributed Denial of Service (DDoS) attacks, but its use has evolved to support various plug-ins. It is well known for being used during the confrontation between Georgia and Russia in 2008, as well as in targeting Ukrainian institutions. Variants include BlackEnergy 2 and BlackEnergy 3. (Citation: F-Secure BlackEnergy 2014)",
+        "discover_time": null,
+        "aliases": [
+            "BlackEnergy",
+            "Black Energy"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0089",
+            "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "ffe20951-8e2b-4962-8681-63dba163b1af",
+        "malware_name": "Rover",
+        "internal_number": null,
+        "family_description": "[Rover](https://attack.mitre.org/software/S0090) is malware suspected of being used for espionage purposes. It was used in 2015 in a targeted email sent to an Indian Ambassador to Afghanistan. (Citation: Palo Alto Rover)",
+        "discover_time": null,
+        "aliases": [
+            "Rover"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0090",
+            "http://researchcenter.paloaltonetworks.com/2016/02/new-malware-rover-targets-indian-ambassador-to-afghanistan/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "d2e67fb0-3aca-4c64-a336-a45ef7d3c259",
+        "malware_name": "SNUGRIDE",
+        "internal_number": null,
+        "family_description": "[SNUGRIDE](https://attack.mitre.org/software/S0159) is a backdoor that has been used by [menuPass](https://attack.mitre.org/groups/G0045) as first stage malware. (Citation: FireEye APT10 April 2017)",
+        "discover_time": null,
+        "aliases": [
+            "SNUGRIDE"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
+            "https://attack.mitre.org/software/S0159"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "f7f0ef49-41eb-458b-952f-d7ac5a6a43cf",
+        "malware_name": "PUNCHTRACK",
+        "internal_number": null,
+        "family_description": "[PUNCHTRACK](https://attack.mitre.org/software/S0197) is non-persistent point of sale (POS) system malware utilized by [FIN8](https://attack.mitre.org/groups/G0061) to scrape payment card data. (Citation: FireEye Fin8 May 2016) (Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
+        "discover_time": null,
+        "aliases": [
+            "PUNCHTRACK",
+            "PSVC"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html",
+            "https://www2.fireeye.com/WBNR-Know-Your-Enemy-UNC622-Spear-Phishing.html",
+            "https://attack.mitre.org/software/S0197"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "fbf7e7d4-7882-4b95-a2cb-7573ce35b743",
+        "malware_name": "GoldFinder",
+        "internal_number": null,
+        "family_description": "[GoldFinder](https://attack.mitre.org/software/S0597) is a custom HTTP tracer tool written in Go that logs the route a packet takes between a compromised network and a C2 server. It can be used to inform  threat actors of potential points of discovery or logging of their actions, including C2 related to other malware. [GoldFinder](https://attack.mitre.org/software/S0597) was discovered in early 2021 during an investigation into the SolarWinds cyber intrusion by [APT29](https://attack.mitre.org/groups/G0016).(Citation: MSTIC NOBELIUM Mar 2021)",
+        "discover_time": null,
+        "aliases": [
+            "GoldFinder"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0597",
+            "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "d68fa752-b502-48b2-a1bc-2782f3d0be73",
+        "malware_name": "GLOOXMAIL",
+        "internal_number": null,
+        "family_description": "[GLOOXMAIL](https://attack.mitre.org/software/S0026) is malware used by [APT1](https://attack.mitre.org/groups/G0006) that mimics legitimate Jabber/XMPP traffic. (Citation: Mandiant APT1)",
+        "discover_time": null,
+        "aliases": [
+            "GLOOXMAIL",
+            "Trojan.GTALK"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0026",
+            "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "23bc6368-8e66-4a07-a0c4-2b1a046d7389",
+        "malware_name": "CORESHELL",
+        "internal_number": null,
+        "family_description": "[CORESHELL](https://attack.mitre.org/software/S0137) is a downloader used by [APT28](https://attack.mitre.org/groups/G0007). The older versions of this malware are known as SOURFACE and newer versions as CORESHELL.(Citation: FireEye APT28) (Citation: FireEye APT28 January 2017)",
+        "discover_time": null,
+        "aliases": [
+            "CORESHELL",
+            "Sofacy",
+            "SOURFACE"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www2.fireeye.com/rs/848-DID-242/images/APT28-Center-of-Storm-2017.pdf",
+            "https://attack.mitre.org/software/S0137",
+            "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
+            "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "a992e6d7-86a8-4dc1-95e0-255e7bcf038a",
+        "malware_name": "ViceLeaker",
+        "internal_number": null,
+        "family_description": "[ViceLeaker](https://attack.mitre.org/software/S0418) is a spyware framework, capable of extensive surveillance and data exfiltration operations, primarily targeting devices belonging to Israeli citizens.(Citation: SecureList - ViceLeaker 2019)(Citation: Bitdefender - Triout 2018)",
+        "discover_time": null,
+        "aliases": [
+            "ViceLeaker",
+            "Triout"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://labs.bitdefender.com/2018/08/triout-spyware-framework-for-android-with-extensive-surveillance-capabilities/",
+            "https://securelist.com/fanning-the-flames-viceleaker-operation/90877/",
+            "https://attack.mitre.org/software/S0418"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "1dd54f1e-8505-402a-94fd-1193ff0dc9ec",
+        "malware_name": "Felismus",
+        "internal_number": null,
+        "family_description": "[Felismus](https://attack.mitre.org/software/S0171) is a modular backdoor that has been used by [Sowbug](https://attack.mitre.org/groups/G0054). (Citation: Symantec Sowbug Nov 2017) (Citation: Forcepoint Felismus Mar 2017)",
+        "discover_time": null,
+        "aliases": [
+            "Felismus"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
+            "https://attack.mitre.org/software/S0171",
+            "https://blogs.forcepoint.com/security-labs/playing-cat-mouse-introducing-felismus-malware"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "a8b06db6-4412-4908-bc76-8ace8f1311e0",
+        "malware_name": "Adups",
+        "internal_number": null,
+        "family_description": "[Adups](https://attack.mitre.org/software/S0309) is software that was pre-installed onto Android devices, including those made by BLU Products. The software was reportedly designed to help a Chinese phone manufacturer monitor user behavior, transferring sensitive data to a Chinese server. (Citation: NYTimes-BackDoor) (Citation: BankInfoSecurity-BackDoor)",
+        "discover_time": null,
+        "aliases": null,
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "http://www.bankinfosecurity.com/did-chinese-spyware-linger-in-us-phones-a-9534",
+            "https://attack.mitre.org/software/S0309",
+            "https://www.nytimes.com/2016/11/16/us/politics/china-phones-software-security.html"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "e4e6b20d-1ca2-487b-bc85-920e205c8ad5",
+        "malware_name": "Kessel",
+        "internal_number": null,
+        "family_description": "[Kessel](https://attack.mitre.org/software/S0487) is an advanced version of OpenSSH which acts as a custom backdoor, mainly acting to steal credentials and function as a bot. [Kessel](https://attack.mitre.org/software/S0487) has been active since its C2 domain began resolving in August 2018.(Citation: ESET ForSSHe December 2018)",
+        "discover_time": null,
+        "aliases": [
+            "Kessel"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0487",
+            "https://www.welivesecurity.com/wp-content/uploads/2018/12/ESET-The_Dark_Side_of_the_ForSSHe.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "ef34e4d5-a24a-4eb9-b11d-3a856733f62b",
+        "malware_name": "BlackEnergy 3",
+        "internal_number": null,
+        "family_description": "[BlackEnergy 3](https://collaborate.mitre.org/attackics/index.php/Software/S0004) is a malware toolkit that has been used by both criminal and APT actors. It support various plug-ins including a variant of KillDisk. It is known to have been used against the Ukrainian power grid. (Citation: Booz Allen Hamilton)",
+        "discover_time": null,
+        "aliases": [
+            "BlackEnergy 3"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://collaborate.mitre.org/attackics/index.php/Software/S0004",
+            "https://www.boozallen.com/content/dam/boozallen/documents/2016/09/ukraine-report-when-the-lights-went-out.pdf"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "31948606-1c45-4d9f-ab32-63337dfbab9e",
+        "malware_name": "NavRAT",
+        "internal_number": null,
+        "family_description": "[NavRAT](https://attack.mitre.org/software/S0247) is a remote access tool designed to upload, download, and execute files. It has been observed in attacks targeting South Korea. (Citation: Talos NavRAT May 2018)",
+        "discover_time": null,
+        "aliases": [
+            "NavRAT"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://blog.talosintelligence.com/2018/05/navrat.html",
+            "https://attack.mitre.org/software/S0247"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "19381a7a-638f-4466-bdb9-dd333f0a6f38",
+        "malware_name": "Unknown Logger",
+        "internal_number": null,
+        "family_description": "[Unknown Logger](https://attack.mitre.org/software/S0130) is a publicly released, free backdoor. Version 1.5 of the backdoor has been used by the actors responsible for the MONSOON campaign. (Citation: Forcepoint Monsoon)",
+        "discover_time": null,
+        "aliases": [
+            "Unknown Logger"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://www.forcepoint.com/sites/default/files/resources/files/forcepoint-security-labs-monsoon-analysis-report.pdf",
+            "https://attack.mitre.org/software/S0130"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "4c66ba28-7074-4ea8-a231-d287532d72c7",
+        "malware_name": "SimBad",
+        "internal_number": null,
+        "family_description": "[SimBad](https://attack.mitre.org/software/S0419) was a strain of adware on the Google Play Store, distributed through the RXDroider Software Development Kit. The name \"SimBad\" was derived from the fact that most of the infected applications were simulator games. The adware was controlled using an instance of the open source framework Parse Server.(Citation: CheckPoint SimBad 2019)",
+        "discover_time": null,
+        "aliases": [
+            "SimBad"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://attack.mitre.org/software/S0419",
+            "https://research.checkpoint.com/simbad-a-rogue-adware-campaign-on-google-play/"
+        ],
+        "disposal_suggestions": null
+    },
+    {
+        "malware_id": "edc9b305-bdd8-463a-a86a-49ee0bb2b8d7",
+        "malware_name": "Raindrop",
+        "internal_number": null,
+        "family_description": "[Raindrop](https://attack.mitre.org/software/S0565) is a loader used by [APT29](https://attack.mitre.org/groups/G0016) that was discovered on some victim machines during investigations related to the 2020 SolarWinds cyber intrusion. It was discovered in January 2021 and was likely used since at least May 2020.(Citation: Symantec RAINDROP January 2021)(Citation: Microsoft Deep Dive Solorigate January 2021)",
+        "discover_time": null,
+        "aliases": [
+            "Raindrop"
+        ],
+        "attack_impact": null,
+        "communication_ways": null,
+        "features": null,
+        "threat_type": null,
+        "impact_platform": null,
+        "reference_link": [
+            "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/solarwinds-raindrop-malware",
+            "https://attack.mitre.org/software/S0565",
+            "https://www.microsoft.com/security/blog/2021/01/20/deep-dive-into-the-solorigate-second-stage-activation-from-sunburst-to-teardrop-and-raindrop/"
+        ],
+        "disposal_suggestions": null
+    }
+]
