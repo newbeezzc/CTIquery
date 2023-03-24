@@ -670,3 +670,89 @@ AttackOrganization_properties = """
             }
         }
     """
+
+MaliciousFamily_properties = """
+            id
+            standard_id
+            entity_type
+            parent_types
+            spec_version
+            created_at
+            updated_at
+            externalReferences {
+                edges {
+                    node {
+                        id
+                        standard_id
+                        entity_type
+                        source_name
+                        description
+                        url
+                        hash
+                        external_id
+                        created
+                        modified
+                        importFiles {
+                            edges {
+                                node {
+                                    id
+                                    name
+                                    size
+                                    metaData {
+                                        mimetype
+                                        version
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            revoked
+            confidence
+            created
+            modified
+            name
+            description
+            aliases
+            malware_types
+            is_family
+            first_seen
+            last_seen
+            architecture_execution_envs
+            implementation_languages
+            capabilities
+            notes {
+                edges{
+                    node {
+                        id
+                        attribute_abstract
+                        content
+                    }
+                }
+            }
+            stixCoreRelationships {
+                edges{
+                    node {
+                        id
+                        entity_type
+                        relationship_type
+                        from {
+                            ... on CourseOfAction {
+                                id
+                                entity_type
+                                name
+                                description
+                            }
+                        }
+                        to {
+                            ... on Malware {
+                                id
+                                entity_type
+                                name
+                            }
+                        }
+                    }
+                }
+            }
+        """

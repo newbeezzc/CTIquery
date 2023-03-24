@@ -1,7 +1,8 @@
-from datetime import datetime, date
+from datetime import datetime, date,timedelta
 import pandas as pd
 import unicodedata
 from pandas import DataFrame
+import pytz
 
 
 def list(opencti, **kwargs):
@@ -133,7 +134,25 @@ def parse_source_category(report_types):
         "spider": "技术博客",
         "threat-report": "厂商情报订阅"
     }
-    return cate_dict[report_types]
+    return cate_dict.get(report_types, "厂商情报订阅")
+
+
+def trans_timezone(date_str):
+    # 从字符串解析本地日期时间（假设时区是东八区）
+    dt_local = datetime.strptime(date_str, "%Y-%m-%d")
+
+    # 将本地日期时间转换为UTC日期时间
+    tz_local = pytz.timezone("Asia/Shanghai")  # 指定本地时区
+    dt_local_tz = tz_local.localize(dt_local)  # 将本地时间加上时区信息
+    tz_utc = pytz.timezone("UTC")  # 指定目标时区为UTC
+    dt_utc = dt_local_tz.astimezone(tz_utc)  # 将本地时间转换为UTC时间
+    dt_utc_one_day_delay = dt_utc + timedelta(days=1)
+
+    # 将UTC日期时间格式化为字符串
+    dt_utc_str = dt_utc.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    dt_utc_one_day_delay_str = dt_utc_one_day_delay.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+
+    return dt_utc_str,  dt_utc_one_day_delay_str # 输出：2023-02-23T16:00:00.000000Z
 
 
 def parse_ioc_type(cti_ioc_type):

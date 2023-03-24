@@ -95,6 +95,7 @@ def gen_Mal():
     df = pd.DataFrame(data=output_datas)
     df.to_csv(file_name, header=False, index=False)
 
+
 def gen_report():
     file_name = "Query text demo/Report_text.csv"
     json_path = "数据查询反馈及示例/"
@@ -104,9 +105,10 @@ def gen_report():
     with open(json_path + json, 'r', encoding='utf-8') as f:
         datas = ujson.load(f)
         for data in datas:
-            domain = data["malware_name"]
+            domain = data["report_time"]
             output_data = [domain]
-            output_datas.append(output_data)
+            if output_data not in output_datas:
+                output_datas.append(output_data)
         f.close()
 
     df = pd.DataFrame(data=output_datas)
@@ -118,4 +120,5 @@ if __name__ == "__main__":
     # gen_Domain()
     # gen_IP()
     # gen_Ins()
-    gen_Mal()
+    # gen_Mal()
+    gen_report()
